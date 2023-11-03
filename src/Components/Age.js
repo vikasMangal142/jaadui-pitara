@@ -14,15 +14,14 @@ function Age() {
       console.log(value);
       setUserAge(value);
       navigate("/category");
-
-
     }
 
   return (
     <>
-      <div className="container" style={{display:"flex", height:"100vh", justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
-        <div className="fw-bold m-2 text-center px-2" style={{fontSize:"2.5rem"}}>Which age group you are in?</div>
-        <div className="container m-2 flex-lg-row" style={{display:"flex", justifyContent:"space-evenly", alignItems:"center", flexDirection:"column", maxWidth:"40rem", flexWrap:"wrap"}}>
+    <div className="container dFlexAICenterJCCenter my-4 flex-1">
+      <div className="container m-4 p-4 selection-buttons-outer-container">
+        <div className="fw-bold m-2 text-center px-2 selection-header">Which age group you are in?</div>
+        <div className="container m-2 flex-lg-row selection-buttons">
             <button onClick={()=>handleAgeSelection("0-1")} type="button" className="btn btn-outline-dark px-4 my-2 option-tab">0-1 years</button>
             <button onClick={()=>handleAgeSelection("2-3")} type="button" className="btn btn-outline-dark px-4 my-2 option-tab">2-3 years</button>
             <button onClick={()=>handleAgeSelection("4-5")} type="button" className="btn btn-outline-dark px-4 my-2 option-tab">4-5 years</button>
@@ -31,6 +30,7 @@ function Age() {
         </div>
         <button type="button" onClick={handleBackClick} className="m-4 btn btn-primary">&#60; Back</button>
       </div>
+    </div>
     </>
   );
 }
