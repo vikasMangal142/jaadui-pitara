@@ -1,25 +1,36 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
 
 function Home() {
   const navigate = useNavigate();
-  const clickHandler = (e) => {
-    e.preventDefault();
-    navigate("/bhashini");
-  };
+  
 
   const handleStart = () =>{
     navigate("/language");
   }
 
   return (
-    <div className="home">
-      <h1>Welcome to Digital Pitara</h1>
-      <button onClick={clickHandler} type="button" className=" mt-3 btn btn-outline-secondary">Go to Bhashini Translator</button>
-      <button onClick={handleStart} type="button" className=" mt-3 btn btn-outline-secondary">Start</button>
-    </div>
+      <div className="container dFlexAICenterJCCenter flex-1">
+        <div className="card px-5 mx-2 card-styling">
+          <div className="card-body dFlexAICenterJCCenter flex-column">
+            <h1 className="card-title mt-4 fw-bold text-center">
+              Welcome to Digital Pitara
+            </h1>
+            <button onClick={handleStart} type="button" className=" mt-3 btn btn-primary">Start</button>
+          </div>
+          
+        </div>
+      </div>
   );
 }
+
+
+
+
+
+
+
+
+
 
 export default Home;

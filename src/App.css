@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap");
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -6,12 +6,129 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.header-styling {
+  background-color: #ffd954;
+  
+}
+
+.header-logo {
+  width: 15rem;
+}
 
 .option-tab{
-  /* background-color: white; */
   background-color: #4db8ff;
   border-radius:2rem;
   font-size: 1.5rem;
-  width:18rem;
+  width:15rem;
   font-family:roboto-mono;
+}
+
+
+.dFlexAICenterJCCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h100vh{
+  height: 100vh;
+}
+
+.card-styling{
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 10px #888888;
+}
+
+.card-img-style{
+  border:2px solid gray;
+  border-radius: 1rem;
+}
+
+.card-body-points{
+  display: flex;
+  align-items: center;
+  max-width: 45rem;
+  text-align: justify;
+}
+
+.dFlexJCCenter{
+  display: flex;
+  justify-content: center;
+}
+
+.card-body-list{
+  list-style-type: disclosure-closed;
+}
+
+.contact-info-text{
+  border-radius: 3rem;
+  background-color: pink;
+  max-width: fit-content;
+  border: 2px solid black;
+}
+
+.card-contact{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 5px solid black;
+  border-radius: 1rem;
+  width: 18rem;
+}
+
+.contact-info-outer-container{
+  border-radius: 2rem;
+}
+
+.contact-icon-box{
+  background-color: pink;
+  width: max-content;
+  border: 1px solid black;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+
+.selection-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  max-width: 40rem;
+  flex-wrap: wrap;
+}
+
+.selection-buttons-outer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 2rem;
+  margin: 2rem;
+  max-width: 40rem;
+  box-shadow: 3px 3px 10px #888888;
+}
+
+@media (max-width: 768px) {
+  .h100vh{
+    height: auto;
+    overflow-y: auto;
+  }
+}
+
+
+.selection-header{
+  font-size: 2.5rem;
+}
+
+.App {
+  display: flex; 
+  flex-direction: column; 
+  height: 100vh;
+}
+
+.flex-1{
+  flex: 1;
 }

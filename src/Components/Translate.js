@@ -68,15 +68,14 @@ function Translate() {
 
   return (
     <>
-      <div
+      <div className="flex-1"
         style={{
-          height: "100vh",
           margin: "auto",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "column",
-          backgroundColor: "#a2d2ff",
+          backgroundColor: "#f3f3e5",
         }}
       >
         <div
@@ -88,7 +87,7 @@ function Translate() {
             flexDirection: "column",
             borderRadius: "1rem",
             margin: "auto",
-            width: "max-content",
+            width: "30rem",
             backgroundColor: "white",
           }}
         >
