@@ -9,7 +9,7 @@
 //   const [sourceLanguage, setSourceLanguage] = useState("");
 //   const [targetLanguage, setTargetLanguage] = useState("");
 //   const [errorMessage, setErrorMessage] = useState("   ");
-  
+
 //   const handlePreviousPage = () =>{
 //     navigate(-1);
 //   }
@@ -64,7 +64,6 @@
 //       // setTranslatedText(fetchedTranslatedText);
 //     }
 //   };
-
 
 //   return (
 //     <>
@@ -168,7 +167,7 @@
 //             <button type="button" className="mt-3 btn btn-outline-info" onClick={handlePreviousPage}>&larr; Back</button>
 //             </div>
 //           </div>
-          
+
 //         </div>
 //       </div>
 //     </>
@@ -177,10 +176,9 @@
 
 // export default Translate;
 
-
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import configData from "../config.json";
 import { useParams } from "react-router-dom";
 import { translate } from "./Utilities";
 
@@ -188,42 +186,47 @@ function Translate() {
   // const fs = require("fs");
   // const [dataConfig, setDataConfig] = useState(null);
   const { sourceLanguage, targetLanguage } = useParams();
-  const { translatedData, setTranslatedData } = useState({});
 
-  const cardData = {
-    sourceLanguage: sourceLanguage,
-    targetLanguage: targetLanguage,
+  // const cardData = {
+  //   sourceLanguage: sourceLanguage,
+  //   targetLanguage: targetLanguage,
 
-    category: "Self Help",
-    title: "Cuts soft foods with knife(i.e. hot dogs, bananas, baked potato)",
-    Tasks: [
-      { SeqNo: "1", Action: "Use table knife with serrated edge. " },
-      {
-        SeqNo: "2",
-        Action:
-          "Show child how to cut. Guide child's hands through cutting motions. Reduce help as child gains in skill.",
-      },
-      {
-        SeqNo: "3",
-        Action:
-          "Let child slice bananas, jello, etc., and have it be part of family's meal. Praise child.",
-      },
-      {
-        SeqNo: "4",
-        Action: "Supervise while child plays at cutting sand in sandbox.",
-      },
-      {
-        SeqNo: "5",
-        Action:
-          "Make a thick pancake out of play dough. Help him use Popsicle stick or plastic knife to cut dough in pieces. Gradually reduce aid.",
-      },
-    ],
-  };
-
+  //   category: "Self Help",
+  //   title: "Cuts soft foods with knife(i.e. hot dogs, bananas, baked potato)",
+  //   Tasks: [
+  //     { SeqNo: "1", Action: "Use table knife with serrated edge. " },
+  //     {
+  //       SeqNo: "2",
+  //       Action:
+  //         "Show child how to cut. Guide child's hands through cutting motions. Reduce help as child gains in skill.",
+  //     },
+  //     {
+  //       SeqNo: "3",
+  //       Action:
+  //         "Let child slice bananas, jello, etc., and have it be part of family's meal. Praise child.",
+  //     },
+  //     {
+  //       SeqNo: "4",
+  //       Action: "Supervise while child plays at cutting sand in sandbox.",
+  //     },
+  //     {
+  //       SeqNo: "5",
+  //       Action:
+  //         "Make a thick pancake out of play dough. Help him use Popsicle stick or plastic knife to cut dough in pieces. Gradually reduce aid.",
+  //     },
+  //   ],
+  // };
 
   useEffect(() => {
-    console.log(translate(cardData));
-  }, [cardData]);
+    const cardJson = configData;
+    cardJson.sourceLanguage = sourceLanguage;
+    cardJson.targetLanguage = targetLanguage;
+    for( var key in cardJson.cards){
+      const cardData = cardJson.cards[key];
+      translate(cardData, sourceLanguage, targetLanguage);
+    }
+    // console.log(translate(cardJson));
+  }, [sourceLanguage, targetLanguage]);
 
   useEffect(() => {
     if (localStorage.getItem("translatedData")) {

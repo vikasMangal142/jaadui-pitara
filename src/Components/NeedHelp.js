@@ -12,28 +12,28 @@ function NeedHelp() {
             Get Appropriate help from our team
           </h2>
           <div className="container d-flex flex-sm-row flex-column align-items-center justify-content-center">
-            <div class="card mb-3 p-3 card-contact mx-3">
+            <div className="card mb-3 p-3 card-contact mx-3">
             <div className="container contact-icon-box d-flex align-items-center justify-content-center">
-              <span class="material-symbols-rounded">call</span>
+              <span className="material-symbols-rounded">call</span>
             </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">+91 2458287241</h5>
+              <div className="card-body">
+                <h5 className="card-title text-center">+91 2458287241</h5>
               </div>
             </div>
-            <div class="card mb-3  p-3 card-contact mx-3">
+            <div className="card mb-3  p-3 card-contact mx-3">
             <div className="container contact-icon-box d-flex align-items-center justify-content-center">
-              <span class="material-symbols-rounded">chat</span>
+              <span className="material-symbols-rounded">chat</span>
             </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">+91 2458142282</h5>
+              <div className="card-body">
+                <h5 className="card-title text-center">+91 2458142282</h5>
               </div>
             </div>
-            <div class="card mb-3 p-3 card-contact mx-3">
+            <div className="card mb-3 p-3 card-contact mx-3">
             <div className="container contact-icon-box d-flex align-items-center justify-content-center">
-              <span class="material-symbols-rounded">email</span>
+              <span className="material-symbols-rounded">email</span>
             </div>
-              <div class="card-body">
-                <h5 class="card-title text-center">sasdgsd@gmail.com</h5>
+              <div className="card-body">
+                <h5 className="card-title text-center">sasdgsd@gmail.com</h5>
               </div>
             </div>
           </div>

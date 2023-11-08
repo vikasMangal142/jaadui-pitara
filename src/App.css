@@ -8,7 +8,16 @@ body {
 
 .header-styling {
   background-color: #ffd954;
-  
+  --bs-breadcrumb-divider: ">";
+}
+
+.breadcrumb-item > a {
+  text-decoration: none;
+  color: #4c4119;
+  /* background-color: white; */
+  /* padding: 0.7rem 1.5rem; */
+  /* border-radius: 2rem; */
+  margin: 0rem 0.5rem;
 }
 
 .header-logo {
@@ -131,4 +140,25 @@ body {
 
 .flex-1{
   flex: 1;
+}
+
+
+.music-btn{
+  font-size: 1.4rem;
+  padding: 0.1rem;
+  margin:0.2rem; 
+}
+
+.change-btn{
+  font-size: 1rem;
+  margin:0.2rem;
+  padding: 0; 
+  font-weight: bold;
+  align-items: center;
+}
+
+.music-btn-position{
+  position: absolute;
+  top:2rem;
+  right:2rem;
 }

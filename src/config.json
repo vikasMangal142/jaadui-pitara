@@ -1,8 +1,10 @@
 {
+    "sourceLanguage": "sourceLanguage",
+    "targetLanguage": "targetLanguage",
     "cards": [
         {
             "category": "Self Help",
-            "title": "Cuts soft foods with knife(i.e. hot dogs, bananas, baked potato)",
+            "title": "Cutting soft foods with a knife (ie, hot dogs, bananas, baked potatoes)",
             "Tasks": [
                 {
                     "SeqNo": "1",
@@ -28,7 +30,51 @@
         },
         {
             "category": "Self Help",
-            "title": "Reaches for bottle.",
+            "title": "Reaches for bottle",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the bottle so the child can see it. Move it slowly toward the mouth while talking to child. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child does not reach for the bottle, place his hands on it before inserting the nipple into mouth."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do these activities each time you give the child the bottle."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from his mouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Reaches for bottl.",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the bottle so the child can see it. Move it slowly toward the mouth while talking to child. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child does not reach for the bottle, place his hands on it before inserting the nipple into mouth."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do these activities each time you give the child the bottle."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from his mouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Reaches for.",
             "Tasks": [
                 {
                     "SeqNo": "1",
