@@ -1,0 +1,86 @@
+{
+    "cards": [
+        {
+            "category": "Self Help",
+            "title": "Cuts soft foods with knife(i.e. hot dogs, bananas, baked potato)",
+            "ageGroup": "",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use table knife with serrated edge. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Show child how to cut. Guide child's hands through cutting motions. Reduce help as child gains in skill."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Let child slice bananas, jello, etc., and have it be part of family's meal. Praise child."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Supervise while child plays at cutting sand in sandbox."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Make a thick pancake out of play dough. Help him use Popsicle stick or plastic knife to cut dough in pieces. Gradually reduce aid."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Reaches for bottle.",
+            "ageGroup": "",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the bottle so the child can see it. Move it slowly toward the mouth while talking to child. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child does not reach for the bottle, place his hands on it before inserting the nipple into mouth."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do these activities each time you give the child the bottle."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from his mouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category":"Socialization",
+            "title": "Watches person moving directly in line of vision",
+            
+            "Tasks":[
+                {
+                    "SeqNo":"1",
+                    "Action":"Sit child in infant seat so he is able to view surroundings. Walk across his line of vision and watch to see if child follows your movement."
+                },
+                {
+                    "SeqNo":"2",
+                    "Action":"Talk to child and smile while very close to child. Gradually move across child's line of vision, while trying to maintain eye contact. Keep praising child. Move farther away as child gains proficiency at following movement."
+                }
+            ]
+        },
+        {
+            "category":"Socialization",
+            "title": "hello how are you",
+            
+            "Tasks":[
+                {
+                    "SeqNo":"1",
+                    "Action":"Bye bye."
+                },
+                {
+                    "SeqNo":"2",
+                    "Action":"Come back."
+                }
+            ]
+        }
+    ]
+}

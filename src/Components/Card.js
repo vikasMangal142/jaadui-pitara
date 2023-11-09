@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import img from "./img.png";
-import config from "../config.json";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
 
@@ -16,33 +15,47 @@ function Card() {
   const [pause, setPause] = useState(false);
 
   const speech = new SpeechSynthesisUtterance();
-  speech.lang = "hi-IN";
   const [readText, setReadText] = useState(null);
+
+  const config = JSON.parse(
+    localStorage.getItem(localStorage.getItem("category"))
+  );
+  const cardData = JSON.parse(config[cardIndex]);
+  console.log("vikasconfig ", config[cardIndex]);
 
   useEffect(() => {
     window.speechSynthesis.cancel();
     setSpeakerOn(false);
-    if (cardIndex >= 0 && cardIndex < config.cards.length - 1) {
+    if (cardIndex >= 0 && cardIndex <= config.length - 1) {
       setReadText(
-        config.cards[cardIndex].title +
-          config.cards[cardIndex].Tasks.flatMap((task) => task.Action)
+        cardData.title + cardData.Tasks.flatMap((task) => task.Action)
       );
     }
   }, [cardIndex]);
 
   const handleSpeak = () => {
+    console.log("hello");
     if (speakerOn) {
       window.speechSynthesis.cancel();
       setSpeakerOn(false);
     } else {
+      console.log("bey")
       setSpeakerOn(true);
       var voices = window.speechSynthesis.getVoices();
-      var bengaliVoice = voices.find((voice) => voice.lang === "hi-IN");
-      speech.voice = bengaliVoice;
+      var gujratiVoice = voices.find((voice) => voice.lang === "hi-IN");
+      speech.voice = gujratiVoice;
       speech.text = readText;
+      speech.pause = 5000;
+      console.log(readText);
       window.speechSynthesis.speak(speech);
     }
   };
+
+
+  speech.onend = function(event) {
+    console.log('Speech has ended');
+    setSpeakerOn(false);
+};
 
   const handlePause = () => {
     if (!pause) {
@@ -143,7 +156,7 @@ function Card() {
           </div>
           <div className="card-body">
             <h3 className="card-title mt-4 fw-bold text-center">
-              {config.cards[cardIndex].title}
+              {cardData.title}
             </h3>
           </div>
           <div className="row">
@@ -158,7 +171,7 @@ function Card() {
             </div>
             <div className="col-md-8 p-2 card-body-points">
               <ul className="list-group list-group-flush pe-3">
-                {config.cards[cardIndex].Tasks.map((task, index) => (
+                {cardData.Tasks.map((task, index) => (
                   <li key={index} className="card-body-list">
                     {task.Action}
                   </li>
@@ -193,9 +206,10 @@ function Card() {
               <button
                 type="button"
                 onClick={handleNextCard}
-                disabled={cardIndex + 1 >= config.cards.length}
+                disabled={cardIndex + 1 >= config.length}
                 className="my-2 btn btn-outline-primary p-2"
-              >&#62;
+              >
+                &#62;
               </button>
             </div>
           </div>
