@@ -7,7 +7,7 @@ function Category() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageCount(4);
+    setPageCount(3);
     setCategory(null);
   }, []);
 
@@ -15,7 +15,7 @@ function Category() {
     console.log(value);
     setCategory(value);
     localStorage.setItem("category", value);
-    navigate("/card");
+    navigate("/age");
   };
 
   const handleBackClick = () => {

@@ -73,6 +73,7 @@
             ]
         },
         {
+
             "category": "Self Help",
             "title": "Reaches for.",
             "Tasks": [
@@ -91,6 +92,84 @@
                 {
                     "SeqNo": "4",
                     "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from his mouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "మృదువైన ఆహారాన్ని కత్తితో కత్తిరించడం (అంటే హాట్ డాగ్‌లు, అరటిపండ్లు, కాల్చిన బంగాళదుంపలు)",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use table knife with serrated edge. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Show child how to cut. Guide child's hands through cutting motions. Reduce help as child gains in skill."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Let child slice bananas, jello, etc., and have it be part of family's meal. Praise child."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Supervise while child plays at cutting sand in sandbox."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Make a thick pancake out of play dough. Help him use Popsicle stick or plastic knife to cut dough in pieces. Gradually reduce aid."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "नरम खाद्य पदार्थों को चाकू से काटना (जैसे, हॉट डॉग, केले, बेक्ड आलू)",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "दाँतेदार किनारे वाले टेबल चाकू का उपयोग करें।"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "बच्चे को बताएं कि कैसे काटना है। काटने की गति के माध्यम से बच्चे के हाथों का मार्गदर्शन करें। जैसे-जैसे बच्चा कौशल हासिल करता है, मदद कम करें।"
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "बच्चे को केले, जेलो आदि काटने दें और इसे परिवार के भोजन का हिस्सा बनाएं। बच्चे की प्रशंसा करें।"
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "जब बच्चा सैंडबॉक्स में रेत काटते समय खेल रहा हो तो उसकी निगरानी करें।"
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "आटे से एक मोटा पैनकेक बनाएं। आटे को टुकड़ों में काटने के लिए पॉप्सिकल स्टिक या प्लास्टिक चाकू का उपयोग करने में उसकी मदद करें। धीरे-धीरे सहायता कम करें।"
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Hindi: Kannada: ಭಾರತ ಒಂದು ಅದ್ವಿತೀಯ ದೇಶ.Gujarati: ભારત એક અદ્વિતીય દેશ છે. Punjabi: ਭਾਰਤ ਇੱਕ ਅਨੋਖਾ ਦੇਸ਼ ਹੈ।",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "সেরাটেড প্রান্ত সহ টেবিল ছুরি ব্যবহার করুন।"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Hindi: भारत एक अद्वितीय देश है। Bengali: ভারত একটি অদ্বিতীয় দেশ। Telugu: భారతం ఒక అనౌపచారిక దేశం. Tamil: இந்தியா ஒரு அதிசயம் நாடு. Marathi: भारत एक अद्वितीय देश आहे. Kannada: ಭಾರತ ಒಂದು ಅದ್ವಿತೀಯ ದೇಶ.Gujarati: ભારત એક અદ્વિતીય દેશ છે. Punjabi: ਭਾਰਤ ਇੱਕ ਅਨੋਖਾ ਦੇਸ਼ ਹੈ।"
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "শিশুকে কলা, জেলো ইত্যাদি টুকরো টুকরো করতে দিন এবং এটি পরিবারের খাবারের অংশ হতে দিন। সন্তানের প্রশংসা করুন।"
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "শিশু যখন স্যান্ডবক্সে বালি কাটতে খেলছে তখন তত্ত্বাবধান করুন।"
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "খেলার ময়দা থেকে একটি পুরু প্যানকেক তৈরি করুন। তাকে পপসিকল স্টিক বা প্লাস্টিকের ছুরি ব্যবহার করে ময়দা টুকরো টুকরো করতে সাহায্য করুন। ধীরে ধীরে সাহায্য কমিয়ে দিন।"
                 }
             ]
         }

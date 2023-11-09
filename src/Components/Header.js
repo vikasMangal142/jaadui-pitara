@@ -49,14 +49,14 @@ function Header() {
               )}
               {pageCount >= 3 && (
                 <li className="breadcrumb-item p-2">
-                  <Link to="/age">Age Group {userAge && <>({userAge})</>}</Link>
+                  <Link to="/category">
+                    Category {category && <>({category})</>}
+                  </Link>
                 </li>
               )}
               {pageCount >= 4 && (
                 <li className="breadcrumb-item p-2">
-                  <Link to="/category">
-                    Category {category && <>({category})</>}
-                  </Link>
+                  <Link to="/age">Age Group {userAge && <>({userAge})</>}</Link>
                 </li>
               )}
               {pageCount >= 5 && (
