@@ -7,7 +7,7 @@ function Category() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageCount(4);
+    setPageCount(3);
     setCategory(null);
   }, []);
 
@@ -15,7 +15,7 @@ function Category() {
     console.log(value);
     setCategory(value);
     localStorage.setItem("category", value);
-    navigate("/card");
+    navigate("/age");
   };
 
   const handleBackClick = () => {
@@ -25,7 +25,7 @@ function Category() {
   return (
     <div className="container dFlexAICenterJCCenter flex-column my-4 flex-1">
       <div className="container selection-buttons-outer-container">
-        <div className="fw-bold m-2 text-center p-3 selection-header">
+        <div className="fw-bold mt-3 text-center p-3 selection-header">
           Select a category
         </div>
         <div className="container m-2 flex-lg-row selection-buttons">
@@ -52,7 +52,7 @@ function Category() {
           </button>
           <button
             type="button"
-            onClick={() => handleCategorySelection("Infant Simulation")}
+            onClick={() => handleCategorySelection("Infant Stimulation")}
             className="btn btn-outline-dark px-4 my-2 option-tab"
           >
             Infant Stimulation
@@ -75,7 +75,7 @@ function Category() {
         <button
           type="button"
           onClick={handleBackClick}
-          className="m-4 btn btn-primary"
+          className="m-4 btn btn-success"
         >
           &#60; Back
         </button>

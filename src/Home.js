@@ -17,10 +17,12 @@ function Home() {
 
   return (
     <div className="container dFlexAICenterJCCenter flex-1">
-      <div className="card px-5 mx-2 card-styling">
+      <div className="card px-5 mx-2 card-styling home-card">
         <div className="card-body dFlexAICenterJCCenter flex-column">
-          <h1 className="card-title mt-4 fw-bold text-center">Prarambh</h1>
-          <h5 className="m-2">Prarambhik Bal Vikas</h5>
+          <h1 className="card-title mt-4 fw-bold display-1 text-center dancing-script-font fw-2">
+            Prarambh
+          </h1>
+          <h5 className="m-2 ">Prarambhik Bal Vikas</h5>
           <button
             onClick={handleStart}
             type="button"

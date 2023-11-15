@@ -11,12 +11,10 @@ import Age from "./Components/Age";
 import Category from "./Components/Category";
 import Language from "./Components/Language";
 import Card from "./Components/Card";
-import Card2 from "./Components/Card2";
 import NeedHelp from "./Components/NeedHelp";
-import Trial from "./Components/Trial";
-import Speech from "./Speech";
 import { HeaderProvider } from "./Context/HeaderContext";
 import RouteChangeListener from "./RouteChangeListener";
+import Callback from "./Components/Callback";
 
 function App() {
   return (
@@ -33,16 +31,16 @@ function App() {
           <Route path="/category" element={<Category />} />
           <Route path="/language" element={<Language />} />
           <Route path="/card" element={<Card />} />
-          <Route path="/card2" element={<Card2 />} />
-          <Route path="/trial" element={<Trial />} />
-          <Route path="/speech" element={<Speech />} />
           <Route path="/needHelp" element={<NeedHelp />} />
           <Route
             path="/translate/:sourceLanguage/:targetLanguage"
             // path="/translate"
             element={[<Translate />]}
           />
-
+                      <Route
+              path="/translate/demo/:sourceLanguage/:targetLanguage"
+              element={[<Callback />]}
+            />
         </Routes>
       </Router>
       </HeaderProvider>

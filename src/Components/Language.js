@@ -1,10 +1,12 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Language.css";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
+
 function Language() {
   const { setLanguage, setPageCount } = useContext(HeaderContext);
   const navigate = useNavigate();
+  const [lang, setLang] = useState();
 
   useEffect(() => {
     setPageCount(2);
@@ -19,14 +21,15 @@ function Language() {
     console.log(value);
     setLanguage(value);
     localStorage.setItem("language", value);
-    navigate("/age");
+    setLang(value);
+    navigate("/category");
   };
 
   return (
     <>
       <div className="container dFlexAICenterJCCenter flex-column my-4 flex-1">
         <div className="container selection-buttons-outer-container">
-          <div className="fw-bold m-2 text-center p-3 selection-header">
+          <div className="fw-bold mt-3 text-center p-3 selection-header">
             Select your language
           </div>
           <div className="container m-2 flex-lg-row selection-buttons">
@@ -36,6 +39,13 @@ function Language() {
               className="btn btn-outline-dark px-4 my-2 option-tab"
             >
               English
+            </button>
+            <button
+              onClick={() => handleLanguageSelection("हिन्दी")}
+              type="button"
+              className="btn btn-outline-dark px-4 my-2 option-tab"
+            >
+              हिन्दी
             </button>
             <button
               onClick={() => handleLanguageSelection("ଓଡିଆ")}
@@ -111,7 +121,7 @@ function Language() {
           <button
             type="button"
             onClick={handleBackClick}
-            className="m-4 btn btn-primary"
+            className="m-4 btn btn-success p-1 cards-button"
           >
             &#60; Back
           </button>
