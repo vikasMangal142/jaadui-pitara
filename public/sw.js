@@ -1,5 +1,5 @@
-const staticCacheName = "site-static-v1";
-const dynamicCacheName = "site-dynamic-v1";
+const staticCacheName = "site-static-v2";
+const dynamicCacheName = "site-dynamic-v2";
 const assets = [
   "/",
   "/index.html",
@@ -21,7 +21,7 @@ const assets = [
   "/logo512.png",
 ];
 
-//cache size limit function
+// cache size limit function
 const limitCacheSize = (name, size) => {
   caches.open(name).then((cache) => {
     cache.keys().then((keys) => {
@@ -68,7 +68,7 @@ this.addEventListener("fetch", (evt) => {
         fetch(evt.request).then((fetchRes) => {
           return caches.open(dynamicCacheName).then((cache) => {
             cache.put(evt.request.url, fetchRes.clone());
-            limitCacheSize(dynamicCacheName, 20);
+            limitCacheSize(dynamicCacheName, 100);
             return fetchRes;
           });
         })

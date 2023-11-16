@@ -7,6 +7,10 @@ body {
   /* background-color: #d0dffe; */
   /* background-color: #f3ffe6; */
   background-color: #f3f3e5;
+  background-image: url("Background.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {

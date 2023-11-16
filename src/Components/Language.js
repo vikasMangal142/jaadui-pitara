@@ -29,7 +29,7 @@ function Language() {
     <>
       <div className="container dFlexAICenterJCCenter flex-column my-4 flex-1">
         <div className="container selection-buttons-outer-container">
-          <div className="fw-bold m-2 text-center p-3 selection-header">
+          <div className="fw-bold mt-3 text-center p-3 selection-header">
             Select your language
           </div>
           <div className="container m-2 flex-lg-row selection-buttons">
@@ -121,7 +121,7 @@ function Language() {
           <button
             type="button"
             onClick={handleBackClick}
-            className="m-4 btn btn-primary"
+            className="m-4 btn btn-success p-1 cards-button"
           >
             &#60; Back
           </button>

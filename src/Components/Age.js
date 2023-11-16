@@ -2,11 +2,10 @@ import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
 import jsonData from "../config1.json";
-import {translate} from "./Utilities.js";
+import { translate } from "./Utilities.js";
 import { useState, useParams } from "react";
 
 const translatedArrayOfCards = [];
-
 
 const IndianLanguages = [
   { name: 'हिन्दी', code: 'hi' },
@@ -21,8 +20,6 @@ const IndianLanguages = [
   { name: 'తెలుగు', code: 'te' },
   { name: 'ಕನ್ನಡ', code: 'kn' }
 ];
-
-
 
 function translateAllCards(targetLanguage, categoryObject, setCategoryObject) {
   let x = 0;
@@ -42,7 +39,6 @@ function translateAllCards(targetLanguage, categoryObject, setCategoryObject) {
         setCategoryObject
       )
     );
-
   });
 }
 
@@ -82,10 +78,11 @@ function Age() {
   return (
     <>
       <div className="container dFlexAICenterJCCenter my-4 flex-1">
-        <div className="container m-4 p-4 selection-buttons-outer-container">
-          <div className="fw-bold m-2 text-center p-3 selection-header">
+        <div className="container selection-buttons-outer-container">
+          <div className="fw-bold mt-3 text-center p-3 selection-header">
             Which age group you are in?
           </div>
+
           <div className="container m-2 flex-lg-row selection-buttons">
             <button
               onClick={() => handleAgeSelection("0-1 years")}
@@ -137,7 +134,7 @@ function Age() {
           <button
             type="button"
             onClick={handleBackClick}
-            className="m-4 btn btn-primary"
+            className="m-4 btn btn-success"
           >
             &#60; Back
           </button>
