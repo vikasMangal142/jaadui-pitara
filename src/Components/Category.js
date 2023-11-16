@@ -13,6 +13,7 @@ function Category() {
 
   const handleCategorySelection = (value) => {
     console.log(value);
+    localStorage.setItem("cardIndex", 0);
     setCategory(value);
     localStorage.setItem("category", value);
     navigate("/age");
