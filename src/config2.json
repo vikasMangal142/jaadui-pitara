@@ -1,0 +1,3251 @@
+{
+    "cards":[
+        {            
+            "category": "Infant Stimulation",
+            "title": "General Visual Stimulation",
+            "ageGroup": "0-1",
+            "imageUrl":" ",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hang a mobile to far right or far left of baby’s crib because his head will usually be turned to either side. Mobile should be designed with a view toward what the baby sees while lying on his/her back"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put your face 6-8 inches from child when talking or singing to him/her. An infant of this age will attend more to a human face than to any other pattern."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Shift baby to other end of crib so that light can excite each eye. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Hang objects from side of crib or from stick placed across crib. Young babies are attracted by bright, irregularly shaped or patterned objects. "
+                }
+            ]
+        },
+        {
+            "category": "Infant Stimulation",
+            "title": "General Tactile Stimulation",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Touch and handle child in a loving, gentle manner. Newborns are very sensitive to sudden movement and rough or inappropriate handling. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Child may feel more secure if wrapped snuggly in a blanket. Likewise, a warm bottle, crib and clothing will add to child’s sense of wellbeing. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Some babies cry less when held in close contact over their mother’s hearts. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Pat body lotion on child, being sure that lotion is not cold. "
+                },
+                {
+                    "seqNo": "5",
+                    "Action": "Hold baby while feeding him/her "
+                }
+            ]
+        },
+        {
+            "category": "Infant Stimulation",
+            "title": "General Auditory stimulation ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Sing to your baby or say poems or nursery rhymes."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Let baby hear a metronome or clock. This may heIp quiet him/her when he’s fussy. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Vary voice tone when talking to child. Tone of voice is more important than the words used. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Talk or sing to baby when you wash and dress him/her and when you feed and rock him/her."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Sucks and swallows liquid.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Stimulate sucking by massaging cheeks when nipple is in mouth, using a forward backward motion with fingers. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Place small amount of honey on tip of pacifier and place it in the mouth. If child still doesn’t suck on pacifier, move it in and out for him. As child increases sucking response, put some honey on the nipple of the bottle. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "To encourage swallowing, gently stroke the child’s neck starting under the chin moving down to the throat. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Reaches for bottle",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the bottle so the child can see it. Move it slowly toward the mouth while talking to child."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child does not reach for the bottle, place his hands on it before inserting the nipple into mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do these activities each time you give the child the bottle. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from hismouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Eats table food with spoon independently.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "After putting the spoon into the child's mouth, have him close his lips to cover the spoon scoop and the food. As he pulls the spoon out of the mouth, make sure his top lip slides the food off. At first you may need to gently use your index and middle finger to close your child's lip as the spoon is removed. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Guide the child's hand, tipping the food into his mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child foods that stick to the spoon(soft cooked egg, ice cream, cooked cereal, mashed potatoes, squash or apple sauce)"
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a bowl for the food to make it easier for child to get food on spoon. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place handle of spoon through a small ball to facilitate holding. Put modeling clay around handle or fill bicycle handle with plaster of Paris, insert spoon handle and let dry. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Holds and drinks from cup with one hand. ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use a one handled cup. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Help the child by guiding his hand and praise him as he brings the cup toward his mouth."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Place a small toy in his other hand so he uses one hand to hold the cup. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Help him to hold the cup in one hand placing your hand around his hand. Gradually withdraw help. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place small amount of liquid in cup to avoid big spills. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Initially use a relatively heavy cup so it is not tipped over easily. Try putting two plastic tumblers together. Put a small amount of sand in the bottom of the outside one to add weight. "
+                },
+                {
+                    "SeqNo": "7",
+                    "Action": "Show child how to gently set down cup so it won't spill easily."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Takes towel from parent and wipes hands and face. ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show the child how to do the task guiding his hands and giving instructions. Have child imitate you as you dry your face and hands. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise the child for drying himself well."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Encourage water play by washing and drying the doll. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Have child use hand towel instead of bath towel so he can more easily manage it."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Give the child a towel that is his special one. Decorate it or put his name on it. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Reward the child for drying well by allowing him to put lotion on his hands, which will allow him to practice a similar hand motion. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Chews and swallows only edible substances. ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Put two real objects before child, one that is food and the other a non-edible item. Ask child which item we eat. Praise child for correct response. When child has mastered this task, move to pictures of edible and nonedible substances and repeat procedures."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise child for not putting toys in mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child does put inedible items in his mouth tell him to take it out and explain why he shouldn’t put the item in his mouth. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Wipes nose when reminded.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Place the tissues where child can easily reach them. Tell the child when to get a tissue. Praise child for wiping his own nose and for throwing away the tissue in a waste paper basket. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Show child how to wipe nose. Have him imitate you. Praise child for wiping his nose when you remind him. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have a special handkerchief for the child that is his to use. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let child carry small packet of tissues in a pocket, particularly if he has a cold. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Wakes up dry two mornings out of seven. ",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask child if he has gone to bathroom just before going to bed. If not, take him or remind him to go on his own"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Do not place diapers on child at night; use plastic to protect mattress. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Limit the amount of the child drinks after supper meal. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Wake the child and take him to the toilet before you go to bed. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Praise the child or reward with special activity for staying dry all night. Happy face stickers or other special stickers can be placed on a chart or on the bathroom door for each successful night. If the child has an accident, don’t criticize him but involve him in helping in changing sheets"
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "If the child has difficulty staying dry over night, try checking him every two hours one night to find out what time he is wetting. Set an alarm so you can wake him to go to the bathroom before his usual wetting time. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": ": Cleans up spills, getting own cloth",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have a rag or sponge for cleaning up spills in a special place"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Encourage all family members to model cleaning up their spills."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do not punish for accidental spills. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Praise child for cleaning up spills acceptably."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Unbuttons own clothing. ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use front buttoning clothes. Praise child for successfully unbuttoning. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have child put on clothing with large buttons and practice unbuttoning these items. Gradually reduce size of buttons. Give verbal and physical aid as is necessary. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Initially unbutton all but one button and have child do that one. Gradually increase the number of buttons to be unfastened at each try. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Partially unbutton each button and let the child finish the task. Give verbal directions as he does so. Gradually do less and less of the unbuttoning until the child can unbutton independently."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When the child can unbutton his own clothing make this his responsibility in undressing. Remember to praise his independence in this. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Selects appropriate clothing for temperature and occasion. ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Let child select clothes for each day. Praise him for making appropriate choices. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Look through clothing section of catalog and talk about when/where one would wear certain items (coats, raincoats, swimsuits, dresses). "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use paper dolls. Describe a particular kind of day to the child and have him choose the clothing. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "At first, give the child a choice of 2-3 items of clothing to choose from. As he gains skill, let him choose independently. If choices are incorrect, explain to him why they are not appropriate. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Is responsible for one daily household task (i.e. setting table, taking out trash)",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Mark on a chart when task is completed each day. Keep chart in visible location."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise child for remembering to complete task. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put up chart with picture of child doing task to remind him of it. Let him mark on chart each day as he does his job. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "If child forgets to do chore, set up weekly reinforcement. Child must do task specified number of times to earn the reinforcement. Number of times should gradually be increased until he is doing it daily. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Put 7 construction paper spoons or trashcans, etc. in child’s room where he can store them. Each day, as child completes task, let him stick one up on refrigerator door or on door of his room. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Watches person moving directly in line of vision.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Sit child in infant seat so he is able to view surroundings. Walk across his line of vision and watch to see if child follows your movement. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Talk to child and smile or use a noisemaker during activity to stimulate looking behaviour. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Get child’s attention by talking and smiling while very close to child. Gradually move across child’s line of vision, while trying to maintain eye contact. Keep praising child. Move farther away as child gains proficiency at following movement. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Smiles in responds to attention by adult ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "As the child is being fed, diapered, and held, talk softly and smile often. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Gently tickle the stomach: this will help to evoke a smile. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child smiles, respond by smiling and laughing back. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Greet child with a smile whenever picking him up after naps, when young someplace, etc. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When you walk by child as he is sitting or lying: stop, talk to him, gently tap his nose, smile at him saying: “ Do you have a smile? ” or “ Come on, you can smile”. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Actively explores his environment.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "When visiting someone else’s house, show child around and explain where things are. Say “Here is the bathroom.” “Here is where we are going to eat.” “Play with your toys here.” "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Take walks around block or yard. Stop to look at and discuss objects in area. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Ask child to go find things for you. Say things like, “Go in the bathroom and get my hairbrush.” "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": " Takes part in manipulative game (pulls string, turns handle) with another person ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Push button toys and encourage him to imitate. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Pull cart toy. Place string in child’s hand. Place your hand over his and walk along, pulling toy. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Roll a toycar down a ramp. Clap or cheer when it reaches the bottom. Encourage child to repeat activity by putting car in his hand and showing him where to place it. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Cooperates with parental request 50% of the time ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Reward good behaviours. Give praise and attention when the child seeks attention appropriately. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Warn the child that the activity is going to change and give him time to finish what he is doing. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Gently but firmly guide. Do not ask questions that can be answered “no” such as, “Do you want to go to bed?” "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Try not to tell the child to do something unless you can follow through by helping him comply with your directions should he refuse. Praise the child even if help is given to aid him in following the direction. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use simple and clear language when asking a child to do something. Don’t ask him to carry out more than 2 related commands at once and don’t ask him to do 2 unrelated tasks. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Attends to music or stories 5-10 minutes.",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Read a simple and interesting story to the child. Explain the pictures to him. Ask him to describe what he sees in the pictures. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Ask simple question about the story to find out if he really did listen."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child the question you will ask before you start the story. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Read to the child daily and at the same general time each day. Make this a fun and relaxing time for both of you—let him choose the story. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Play a record that involves simple motor activities. Go through activities with child. Later see if child can carry through actions from the record alone. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Sings and dances to music.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Demonstrate clapping and marching to music with the whole family"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Turn the radio on - take child's hands and 'dance' with him showing how to move feet."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Encourage him to dance by himself- clap for and praise the child as he performs. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Provide rhythm band materials for children to play with (pots, pan, spoons)."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Sway body or nod head while singing to music. Encourage child to imitate."
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Greets familiar adults without reminders.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": " Role play, pretend daddy is coming home and let the child pretend to be daddy and then himself. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use puppets and cutouts to act out situations in which the child greets people. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Model the activity and have child imitate you, as you are greeting people. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "When you know a person familiar to the child will be arriving inform the child. If familiar adult is at the door inform the child as you go to answer the door to give him an opportunity to greet him. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Contributes to adult conversation",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Encourage child to greet visitors and answer questions."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Provide situations in which child can communicate with an adult. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Make suppertime a time when each family member tells about his or her day. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "When family decisions need to be made, encourage each child to participate in the discussion. Let child know he has a right to contribute. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Don’t ridicule or scoff at child if his ideas are not entirely appropriate. Instead, cue him in on the topic of conversation."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Discuss with child or rehearse with him what he did during day that he could use as contribution to dinner conversation. Reinforce him for appropriate contributions. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Works alone at chore for 20-30 minutes ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Give the child a choice of a chore to do. Explain what needs to be done for task that child has chosen Set a timer for 15 minutes and tell child if he works at task until timer goes off he will receive a treat. Praise child for working on task and next time set timer for 20 minutes, etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Check child’s progress and encourage him as he carries out task. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Some tasks that the child might be able to sustain interest working for longer periods of time might be raking, or picking up sticks or twigs prior to an adult mowing lawn, carrying trimmings and clippings, dusting, washing bath tubs, rolling cookie dough into balls on cookie sheets. If you work near by it will be easier for him to maintain interest. Reinforce for attending. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Plays with 4-5 children on co-operative activity without constant supervision ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "The activity should be organized, but not lengthy. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Each child should have a chance to participate in small groups. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Provide enough materials such as blocks so each child can contribute to the activity. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Play “house” or games that need cooperation from all to succeed such as tag, ring-around-rosy. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Imitates adult roles ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Provide old clothes, long dresses and a variety of hats. Play “house” or act out stories with characters wearing appropriate “costumes”. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Provide a long mirror on door or wall so child can see how he looks. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Allow child to pretend he’s the daddy or mommy for a short amount of time. Let him use props from around the house. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let child put on a play or fashion show for the family. "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Reaches for object 6-9 inches in front of him.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Suspend a toy from the ceiling on a long string and place child so he can watch toy move and dangle and reach out to hit it. Use stretchy rope to attach objects (elastic thread)."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use a favorite toy or food placed within vision. Initially assist child in reaching out and picking up objects. Call his attention to picking them up. Move his hand to touch the object."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Allow child to reach out and pat glass or slap hand on table. Demonstrate these activities so he gets idea of reaching out with his hands."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a suction toy (clown or jumping jack) attach to flat surface 6-9 inches in front of child, help child to reach and grasp toy."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Reaches for preferred object.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Limit selection of toys to just a few so he learns to accept one as his favorite. Hold toy in front of him and do not give it to him immediately. Encourage him to reach for the toy."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Secure a towel across top of crib. Tie onto it two objects that feel very different (satin cloth, net ball). After a day or two switch the objects from left to right. Later remove one object and replace with something different. Next try 3 objects. Be sure they can all be easily seen and reached by the baby."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use brightly colored objects or toys with facial features to attract his attention."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Creeps upstairs",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Position the child’s hands and knees on the stairs. Place something on the next step that he would like. Encourage him with spoken cues to get the object."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Place the child in the position and physically help him move up the stairs. Hold him, moving his knees and hands. Praise slightest efforts made by the child."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Begin with 2 steps for the child to crawl up. Place a toy or goodie on the second step and help him, if necessary, to get it. Reduce help and gradually increase the number of steps to crawl up to get the goodie."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Sit at top of stairs and call child. Encourage him to come to you. Have another person stay behind the child in case he slips or tumbles."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place several large pillows or bolsters on the floor and encourage the child to creep up on them."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Use a low stool or box against the wall. Encourage him to creep up this one step, then try short flight of stairs."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Moves from sitting to standing position",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "When the child is sitting on the floor provide a goodie or toy held above the child’s reach to encourage him to stand up. Give him the goodie or toy when he stands."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Extend your hand to him and help him get up and then praise him and give him the goodie."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Reduce the amount of assistance by letting him do more of the pulling up to reach the standing position."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a chair. Have child pull himself up to standing position. Gradually use lower chairs."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Have the child sit on the bottom stair and encourage him to stand by holding on to your hand or the banister."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Have the child sit on box or low stool, place a heavy sturdy chair in front of him that he can hold on to help pull himself up."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Walks backwards",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Choose open area to avoid bumping into things. Model activity. Have child imitate."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Lead child through activity, holding his hand. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Move your feet forward one at a time to touch his toes as a signal to move that foot back. Reinforce and verbalize, “back” as he moves."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Turns pages one at a time",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Provide the child with books to look through and manipulate."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have him turn the pages for you while read the story. Praise and thank him for helping you."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a picture book with cardboard pages. Reinforce him for success."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Show child a picture of himself. Place picture under next page to be turned to encourage child to turn page to find picture."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Make a scrapbook of pictured favorite objects, place index tabs on the corners of the pages for ease in turning."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Kicks large ball when rolled to him.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show him what to do by walking up to ball and kicking it yourself. Then have the child imitate you."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Standing a few feet from the child, kick or roll a ball to him for him to kick back to you."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Physically guide the child in the act of kicking. Move his leg from the knee and ankle. Have him maintain balance by holding onto a chair."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Demonstrate kicking motion several times and ask child to imitate you. Praise him when he does."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Child may have to lean against a wall to start out with the kicking."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "For additional practice in kicking a ball in motion, fasten the ball as a tether between two stakes or across a gate outside, or across a doorway inside, have child kick the ball and it will return to him. Reinforce him for good kicking."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Catches ball with two hands",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have the child hold his arms out, and stand behind the child. Have someone toss ball to the child, standing at first just a foot away. Push child’s hands together to help him catch the ball. Praise and gradually reduce aid."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have the child hold his arms out. Make sure the child is watching the ball. Say, “Arms out. Here it comes.” Then gently toss the ball to him. Praise the child as he improves. Gradually increase the distance between you and the child when he is catching the ball consistently at a distance of one foot."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a large, light ball. At first, a foam rubber ball may be appropriate."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a balloon at first so the child can get some idea of grasping onto a slowly moving object."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Stands on one foot without aid 4-8 seconds",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Place the child in a hallway or between 2 chairs. Have the child hold on to the wall of chairs with both hands as he raises one foot. Count slowly to 5, and praise the child as he gains in skill."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use one small chair or hold one of the child’s and ask him to stand on one foot."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child can stand on one foot with support, gradually reduce the support given. Go from holding on to a chair, to holding the end of a pencil (with adult on the end). "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Walking between rungs of ladder which is placed on the ground, stepping over a suspended rope and kicking a ball will provide the child with momentary practice of standing on one foot."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Let the child hold onto the pencil (without support on the other end) or a block to help him balance himself."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Count aloud the number of seconds he stands and reward improvement. Start with the goal set at one or two seconds and gradually increase the time criteria. "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Runs changing direction",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show child how to do the activity."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Mark a course with tape, string, or markers that would necessitate changing directions."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Run relays. Play tag."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Practice running with directions such as “Go near Dad” or “Go near Mum?” using 2-3 part directions such as “run to the tree and then to the swing.”"
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Practice using “left” and “right” as direction words such as “run left, run right, run left” as directed by leader. Reinforce for following directions by allowing child to be leader."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Skips",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Start by galloping – stepping with one foot, hopping with the other"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Stand behind the child and hold him under his arms. Push his right leg forward with yours as you begin, saying, “Step, hop, step.” Move through the motion slowly. Then do the same with the left foot. Continue until the child can step, hop, alternating feet, using verbal cues. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have the child watch you as you say and do – step, hop, step, hop, skipping slowly so he can watch each movement."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Have the child skip holding onto your hand, skip with him slowly saying, “step-hop” as you go. Praise the child as he improves."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Have the child skip by himself still giving the verbal directions of “step-hop” "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Uses pencil sharpener",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show child where to insert pencil. Hold your hands over his and physically guide him through operation. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use thick pencil at first."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Instruct child to take pencil out occasionally to check if it is sharp enough."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Count the approximate number of turns needed to sharpen a pencil on your sharpener. Have the child count to that number as he turns the handle so that he does not sharpen away his entire pencil. Reinforce him for doing a good job of sharpening."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Removes cloth from face, that obscures vision.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Lay child on back in crib. Place cloth over face. Talk to the child so he knows you are still there. Smile and hug child as he pulls cloth off eyes. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Physically guide child by holding upper arm and helping him bat at cloth; gradually withdraw aid. Reward with touching, smiling, exaggerated facial expression when cloth is removed."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Cover only one eye with the cloth and you gradually move from child’s vision. Help him tug at cloth to uncover both eyes. Reward child with praise and a kiss. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Looks for object that has been removed from direct line of vision. ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold a bright coloured toy in front of child. Remove from line of vision slowly. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use ratte or noisemaker.Remove from line of vision and shake rattle to gain child’s attention ."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child will look at person when he moves from direct line of vision, but not object; begin by holding object near your face. Move slowly out of direct line of vision. Verbalize as you do this as long as the child follows you. Gradually hold the object further from your face so child visually follows object and not you. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Put brightly colored chain around your neck. Bend over child so he sees the necklace, but not so close that he can pull it. Move slowly away from child as he watches beads. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Individually takes out 6 objects from container.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the container so the child must remove the objects individually and not dump them. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use colorful blocks and a large cup. Show the child how to remove the blocks. Hand the cup to the child and say “Give me the blocks”. If necessary give physical assistance by guiding the child’s  hand. Gradually withdraw physical help and give verbal clues only. Praise the child’s attempts and successes at removing each block individually from container. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put treat in bottom of container and six blocks or small toys on top. When objects are removed he can reach in and have the treat. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Put parts to a toy in container. For instance,animals to Fisher-Price barn in the silo.Have child take one out at a time and set them up."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Let child help you with a task such as taking clothes out from a laundry hamper, taking silverware from a drawer,or taking food out of a grocery bag.Put a treat for child at bottom of whatever container you use. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Points to one body part",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold a doll, and ask “Where is the dolly’s nose?” If necessary, guide the child’s hand and praise him as he touches the correct body part. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Point to child’s own nose and say, “Here is John’s nose.” “Where is John’s nose?” Help him by guiding his hand and reduce the help as the child learns. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Using a mirror show the child where his nose is.have him feel it, also let him feel your nose. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use any body part not necessarily his nose. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "In daily activities start mentioning the child’s body parts. Let the child wear stickers on certain body parts, i.e put a star on his hand.and ask him where’s the star? Answer for him if necessary and point at the same time, say “There it is ! It’s in your hand!” Use masking tape if stickers are not available. Have the child peel off tape as you name body part."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Finds specific book on request.",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Keep child’s books in a special pile or on a certain shelf so child knows where his books are."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use two books at first. Talk about the pictures on the cover and read books to child .Ask child to find the book about dogs from those two books. Mix the ooks in with child’s other books and ask him again to find the dog book. Praise correct response. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use two or three books that are quite different (animals, trucks and people) so the child is not confused by similar content of the books. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Draws a vertical line in imitation",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Tape paper to a wall. Have child watch you draw a vertical line from top to bottom. Ask child to imitate you. Give physical help if necessary. Gradually reduce aid as child gains in skill. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Make a cardboard template to guide child’s downward stroke. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use chalks, crayons, colored pencils, and magic makers. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Practice making vertical lines in sand or fingerpaint or shaving foam. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Put stickers at top and bottom of page. Ask child to draw from one to another. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Put M & M’s or raisins (treat that child likes) at bottom of page. Tell child he can have it if he draws a line down to it. Help him by putting his hand at top of page. "
+                },
+                {
+                    "SeqNo": "7",
+                    "Action": "Tape paper to table. Have child use crayon to push a block to top or bottom of paper .Say “ See the line? You "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": " Names big and little objects",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use 5 large blocks and 5 small blocks that are the same color. Begin by having the child sort the blocks into 2 piles according to size. The child should be able to sort without error before going on to pointing to big and little Praise correct reponse. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use two objects that differ only in size. For example, use two red balls, one big and one little. Begin with very large and very small items. Name the balls or blocks or other objects as big and little. Then ask the child to give you the big ball and then the little one. Change the position of the objects often. When the child can cosistently point to big and little without error, begin by having the child name object size; big or little. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use small penny size candy bars and the same brand of large candy bars (Wrappers are the same) Have the child name big, little. Give the candy bars as a reward."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Place 6 inch cut out circles and 3 inch cut out circles on the floor. Have child step only on the big circles, the on the little circles. Have child tell you which circle to step on ( big or little ) and he is to tell you if you are correct. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place a treat on one of the circles. The child should correctly tell you if the circle is big or little before getting the treat. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Points to boy and girl on verbal command",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Identify family members by sex when appropriate—“ What a big boy,” “ What a pretty girl,” etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "When reading stories to the child, point out the characters in pictures as boys and girls. Then you point to one of the pictures and ask the child to point to the boy and girl. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "You point to a picture and have the child identify the picture as a boy or girl. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use boy and girl dolls (GI Joe, Barbie) and encourage the child to dress the dolls according to sex. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names long and short",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use pencils, pipe cleaners, draw lines, or cut out different lengthed strips of paper or material. Point to the long one and say, “ This is long,” then ask which one is long. Repeat again and say, “ Which one is long;”—this one. Then have the child point to the long one. Change the position of the objects ans asks the child again to show you the long one. Do the same with short. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "In the beginning use very long and very short lines and then reduce the difference gradually as the child gains in skill. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Line up whatever items you are using so that both begin in the same place-----------. Explain to the child that one is long and onr is short. When child can do this, line up the items------------and have the child tell you that one is long and one is short as he points to themh. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names or points to missing part of pictured object",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Draw pictures of familiar items with parts missing or use commercially prepared pictures. Have child find the part that is missing. Help the child by asking him questions like “ does the man have a head?” Withdraw your aid as the child gains proficiency. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Begin by using very obvious pictures like horse without a head, or house without a roof. Later use less  obvious items like a horse without a tail. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have picture of a horse without leg, horse without tail, horse without head so that the child must look for what is missing rather than learning the specific pictures. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let the child compare the incomplete picture with a complete one to aid him in finding the missing part."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names five letters of alphabet",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Work with letters in child’s name or those he is familiar with. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have child trace and copy letters as you name them."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use letters that are very different (O, T, M, B, A). Name them for child then hold them in your hand and let child take them one at a time and name them. If child doesn’t know letter, you say the name and have him repeat it."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Print letters on index card. Hide them around the room. As the child finds them, have him bring them to you and name them. Hide the letters and when child finds them you name them for him if he is unable to name them."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Encourage child to look for familiar letters such as letters of his name on signs and in stores."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Puts numerals 1 to 10 in proper sequence",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have child match number cards to a model set up in a sequence of 1- 10. Remove one number from sequence and ask child to position numbers once more. Continue removing numbers from model sequence until child is positioning numerals. 1-10 in correct sequence without a model. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put out some numbers (1,2,6,8,9,10) and let child put in rest. Gradually reduce the number you put out until child sequences all of the numbers himself. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child can name numbers have him count as he puts out the numbers. When he has difficulty have him count as far as he is able and then find the one that comes next. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Repeats sound made by others  ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Make sounds that go with game or physical activity i.e. pop beads 'p/p/p/p'"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Say a sound like 'ah' and tells the child, say 'ah'. Say it with him and reward the child with a goodie of  praise. 'Good aaah' (repeating sound). Click tongue, clap hands, puff cheeks, blow breath. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Say various vowel sounds to the child. Say each one several times and allow child time to repeat. Initially reinforce any approximation of the sound. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Smile and make the activity enjoyable for the child. Pick up, hug, rock while doing activity. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use vowel sounds and sounds made with the lips (p, b, m) which are the easiest to produce and are visible. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Initially choose sounds, which the child has made spontaneously in his vocal play. Say these to him and have him repeat them. When child can do this, begin to have him imitate sounds, which he does not produce spontaneously. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Responds to gestures with gestures",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "To teach the child to imitate your gestures, show the child what to do by taking his hands and helping him wave bye-bye, clap hands. Reduce the help as the child gains in skill and praise him each time he imitates, with or without help. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "As you say 'no-no' to the child, shake your head at the same time. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Show the child how you do an activity, help him do the activity by moving his hands or body and telling him what to do. Show the child the activity again and encourage him to perform without physical help, but tell him what to do. Show him what to do and say 'you do it' (without telling him what to do or touching him) "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Once the child can imitate these gestures, encourage him to use them by waiting for hime to extend his arms to you to be picked up, when you extend your arms. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When offering an object hold it out to him and let him respond by shaking head or reaching for it. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Points to 3 -5 pictures in a book when named ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Begin with pictures of familiar objects. Use simple books where there is only one picture on a page. Then use of pictures of two objects on a page for the child to choose between. Praise success. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use toy catalog, old magazines and make a scrapbook of familiar objects."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Read nursery rhymes to the child which include familiar objects. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "If the child point to objects without difficulty but has problems pointing to pictures of the same objects, tape the picture to the object itself. For instance, taping a picture of an apple to a real apple may help him make the association."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "To aid the child in going from pointing to three dimensional objects to pointing to single dimensional picutres, taping the object, if it's small to a piece of paper may help, i.e. taping a cookie to a piece of paper. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Take photographs of real objects in the child's environment aand use these. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Points to 3 body parts on self ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask 'Where is your ----------?' Take the child's hand and place it on the body part. Ex. Nose. Say, 'This is your nose.' Say 'Good, that's your nose.' Ask again 'Where is your nose?' Gradually withdraw the physical and aid until the child points to the body part on request. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have the child point to parts on mama. 'Where's mama's nose? '' When child carries out activity, say, 'Good, that's a nose?' (Repeat the word.) "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a mirror and stand next to the child. First have him imitate your movements as you name the body parts for him to touch it. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Work on one body part at a time and add additional body partws only after he consistently knows the ones you've taught previously. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Name the body parts as you're bathing the child, this will help him become familiar with the words and their meaning. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Combines noun and verb in two word phrase (daddy go) ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Say what the child is doing in daily activities-begin with 2-3 word phrases. 'Bobby eat,''Eat dinner' or 'Bobby eat dinner.' "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Do activities as a game - comb hair, shut doorr, wash hands, kick ball, ask 'What am I doing, what are you doing?'"
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Begin to look at simple action pictures or draw stick pictures ask, 'What is he doing?' or 'What happened?' "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use events or experiences that happen during the day naming them for the child using two word phrases and encourage and reinforce the child for imitating. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Uses word for bathroom need",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Choose a particular word and you use it consistently to refer to toileting. When the child is being diapered use the word in explaining to him what he has done."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child uses gestures such as tugging at his pants or holding himself when he needs to urinate or defecate use the word then and ask him to repeat it. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child uses gestures to indicate that he needs to use the toilet ask him 'do you have to---------?' Praise him when he does. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Select a word that will have the same meaning to others who may not know the child, "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "This will help him to comunicate his needs when the family isn't around. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells full name when requested",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask the child, 'What's your name?' 'What's your name, Bill?' 'What's your whole name - Bill F---- What's your name? Bill Fi--- What's your whole name? Bill? Bill Who? Bill Fish--? Oh, Bill Fisher! "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Take turns naming the family by using both names, such as 'My name is Joe Jones, My name is Jane Jones, what is your name?' etc. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Call the child by his full name when talking with him. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Will attend for five minutes while story is read ",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Read a simple and interesting story to the child. Explain the pictures to him. Ask him to describe what he sees in the pictures."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Ask simple questions about the story to find out if he really did listen. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child the questions you will ask before you start the story. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Read to the child daily and at the same general time each day. Make this a fun and relaxing time for both of you - and let him choose the story."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "If child is unwilling to attend, use a kitchen timer and set it for a minute or two. If the child attends to the story until the bell rings, reinforce the child with praise and a treat. Very gradually, increase the amount of time the child is required to attend before receiving the reinforcer. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Can find a pair of objects/pictures on request ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use the word 'pair' in your speech to refer to two identical objects; pair of shoes, mittens, cards, etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put out pairs of objects. Mix them up and then ask the child to find a pair of ____________. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put out the assortment of paired objects and tell the child to put all the pairs together. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use the procedures in 2 and 3 with pairs of pictured items. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use pictures of a single item and of pairs of those same single items. Ask the child to point to or find the one that shows a pair of _______. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Uses 'could' and 'would' in speech ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Uses 'could' and 'would' in your speech when talking to child to express possible activities. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Play verbal games such as: If I were a rabbit, I could hop, I could jump, I could wiggle my nose. Then let the child choose the pretend object or animal and tell you what he could do. Do the same with would, i.e. If I was at the park I would swing, I would ride on the merry-go-round, etc. Make sure the child prefaces each remark with 'I could' or 'I would.' "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Ask questions such as 'Who could/would do this for me?' Encourage the child to reply by saying ' I could, Billy would,' etc. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells simple jokes ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Tell an elephant joke to the child. Encourage him to repeat to friends and relatives."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Read Bennet Cerf’s Book of Riddles to the child. Allow time for him to respond before turning the page that shows the answer. Example of riddles –(1) Why do birds fly south? Answer: It’s too far to walk. (2) What goes up when the rain comes down? Answer: Umbrellas. (3) What time is it when the hippo sits on the fence? Answer: Time to get a new fence. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells daily experiences",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "After carrying out an activity with child (going to store, swimming, etc.) have child tell you or another person what he did. Initially provide him with cues if necessary. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Begin by having the child tell you about immediate experiences. Gradually delay having him tells you what he did. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Establish a special time (before dinner, etc.) when child can tell experiences to the other parent when he/she arrives home. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Initially accept short description of major events. Aid the child with cues to give more details. Gradually withdraw cues as the child gives details spontaneously. "
+                }
+            ]
+        },
+        {            "category": "Infant Stimulation",
+            "title": "General Visual Stimulation",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hang a mobile to far right or far left of baby’s crib because his head will usually be turned to either side. Mobile should be designed with a view toward what the baby sees while lying on his/her back"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put your face 6-8 inches from child when talking or singing to him/her. An infant of this age will attend more to a human face than to any other pattern."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Shift baby to other end of crib so that light can excite each eye. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Hang objects from side of crib or from stick placed across crib. Young babies are attracted by bright, irregularly shaped or patterned objects. "
+                }
+            ]
+        },
+        {
+            "category": "Infant Stimulation",
+            "title": "General Tactile Stimulation",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Touch and handle child in a loving, gentle manner. Newborns are very sensitive to sudden movement and rough or inappropriate handling. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Child may feel more secure if wrapped snuggly in a blanket. Likewise, a warm bottle, crib and clothing will add to child’s sense of wellbeing. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Some babies cry less when held in close contact over their mother’s hearts. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Pat body lotion on child, being sure that lotion is not cold. "
+                },
+                {
+                    "seqNo": "5",
+                    "Action": "Hold baby while feeding him/her "
+                }
+            ]
+        },
+        {
+            "category": "Infant Stimulation",
+            "title": "General Auditory stimulation ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Sing to your baby or say poems or nursery rhymes."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Let baby hear a metronome or clock. This may heIp quiet him/her when he’s fussy. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Vary voice tone when talking to child. Tone of voice is more important than the words used. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Talk or sing to baby when you wash and dress him/her and when you feed and rock him/her."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Sucks and swallows liquid.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Stimulate sucking by massaging cheeks when nipple is in mouth, using a forward backward motion with fingers. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Place small amount of honey on tip of pacifier and place it in the mouth. If child still doesn’t suck on pacifier, move it in and out for him. As child increases sucking response, put some honey on the nipple of the bottle. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "To encourage swallowing, gently stroke the child’s neck starting under the chin moving down to the throat. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Reaches for bottle",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the bottle so the child can see it. Move it slowly toward the mouth while talking to child."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child does not reach for the bottle, place his hands on it before inserting the nipple into mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do these activities each time you give the child the bottle. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Give the child bottle and allow him to nurse for a short time. Then move bottle a short distance away from hismouth and see if he will reach for it. If he does not, guide his hands with yours to reach the bottle."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Eats table food with spoon independently.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "After putting the spoon into the child's mouth, have him close his lips to cover the spoon scoop and the food. As he pulls the spoon out of the mouth, make sure his top lip slides the food off. At first you may need to gently use your index and middle finger to close your child's lip as the spoon is removed. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Guide the child's hand, tipping the food into his mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child foods that stick to the spoon(soft cooked egg, ice cream, cooked cereal, mashed potatoes, squash or apple sauce)"
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a bowl for the food to make it easier for child to get food on spoon. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place handle of spoon through a small ball to facilitate holding. Put modeling clay around handle or fill bicycle handle with plaster of Paris, insert spoon handle and let dry. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Holds and drinks from cup with one hand. ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use a one handled cup. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Help the child by guiding his hand and praise him as he brings the cup toward his mouth."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Place a small toy in his other hand so he uses one hand to hold the cup. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Help him to hold the cup in one hand placing your hand around his hand. Gradually withdraw help. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place small amount of liquid in cup to avoid big spills. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Initially use a relatively heavy cup so it is not tipped over easily. Try putting two plastic tumblers together. Put a small amount of sand in the bottom of the outside one to add weight. "
+                },
+                {
+                    "SeqNo": "7",
+                    "Action": "Show child how to gently set down cup so it won't spill easily."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Takes towel from parent and wipes hands and face. ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show the child how to do the task guiding his hands and giving instructions. Have child imitate you as you dry your face and hands. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise the child for drying himself well."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Encourage water play by washing and drying the doll. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Have child use hand towel instead of bath towel so he can more easily manage it."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Give the child a towel that is his special one. Decorate it or put his name on it. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Reward the child for drying well by allowing him to put lotion on his hands, which will allow him to practice a similar hand motion. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Chews and swallows only edible substances. ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Put two real objects before child, one that is food and the other a non-edible item. Ask child which item we eat. Praise child for correct response. When child has mastered this task, move to pictures of edible and nonedible substances and repeat procedures."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise child for not putting toys in mouth. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child does put inedible items in his mouth tell him to take it out and explain why he shouldn’t put the item in his mouth. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Wipes nose when reminded.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Place the tissues where child can easily reach them. Tell the child when to get a tissue. Praise child for wiping his own nose and for throwing away the tissue in a waste paper basket. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Show child how to wipe nose. Have him imitate you. Praise child for wiping his nose when you remind him. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have a special handkerchief for the child that is his to use. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let child carry small packet of tissues in a pocket, particularly if he has a cold. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Wakes up dry two mornings out of seven. ",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask child if he has gone to bathroom just before going to bed. If not, take him or remind him to go on his own"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Do not place diapers on child at night; use plastic to protect mattress. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Limit the amount of the child drinks after supper meal. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Wake the child and take him to the toilet before you go to bed. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Praise the child or reward with special activity for staying dry all night. Happy face stickers or other special stickers can be placed on a chart or on the bathroom door for each successful night. If the child has an accident, don’t criticize him but involve him in helping in changing sheets"
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "If the child has difficulty staying dry over night, try checking him every two hours one night to find out what time he is wetting. Set an alarm so you can wake him to go to the bathroom before his usual wetting time. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": ": Cleans up spills, getting own cloth",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have a rag or sponge for cleaning up spills in a special place"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Encourage all family members to model cleaning up their spills."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Do not punish for accidental spills. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Praise child for cleaning up spills acceptably."
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Unbuttons own clothing. ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use front buttoning clothes. Praise child for successfully unbuttoning. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have child put on clothing with large buttons and practice unbuttoning these items. Gradually reduce size of buttons. Give verbal and physical aid as is necessary. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Initially unbutton all but one button and have child do that one. Gradually increase the number of buttons to be unfastened at each try. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Partially unbutton each button and let the child finish the task. Give verbal directions as he does so. Gradually do less and less of the unbuttoning until the child can unbutton independently."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When the child can unbutton his own clothing make this his responsibility in undressing. Remember to praise his independence in this. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Selects appropriate clothing for temperature and occasion. ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Let child select clothes for each day. Praise him for making appropriate choices. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Look through clothing section of catalog and talk about when/where one would wear certain items (coats, raincoats, swimsuits, dresses). "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use paper dolls. Describe a particular kind of day to the child and have him choose the clothing. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "At first, give the child a choice of 2-3 items of clothing to choose from. As he gains skill, let him choose independently. If choices are incorrect, explain to him why they are not appropriate. "
+                }
+            ]
+        },
+        {
+            "category": "Self Help",
+            "title": "Is responsible for one daily household task (i.e. setting table, taking out trash)",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Mark on a chart when task is completed each day. Keep chart in visible location."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Praise child for remembering to complete task. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put up chart with picture of child doing task to remind him of it. Let him mark on chart each day as he does his job. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "If child forgets to do chore, set up weekly reinforcement. Child must do task specified number of times to earn the reinforcement. Number of times should gradually be increased until he is doing it daily. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Put 7 construction paper spoons or trashcans, etc. in child’s room where he can store them. Each day, as child completes task, let him stick one up on refrigerator door or on door of his room. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Watches person moving directly in line of vision.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Sit child in infant seat so he is able to view surroundings. Walk across his line of vision and watch to see if child follows your movement. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Talk to child and smile or use a noisemaker during activity to stimulate looking behaviour. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Get child’s attention by talking and smiling while very close to child. Gradually move across child’s line of vision, while trying to maintain eye contact. Keep praising child. Move farther away as child gains proficiency at following movement. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Smiles in responds to attention by adult ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "As the child is being fed, diapered, and held, talk softly and smile often. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Gently tickle the stomach: this will help to evoke a smile. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child smiles, respond by smiling and laughing back. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Greet child with a smile whenever picking him up after naps, when young someplace, etc. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When you walk by child as he is sitting or lying: stop, talk to him, gently tap his nose, smile at him saying: “ Do you have a smile? ” or “ Come on, you can smile”. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Actively explores his environment.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "When visiting someone else’s house, show child around and explain where things are. Say “Here is the bathroom.” “Here is where we are going to eat.” “Play with your toys here.” "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Take walks around block or yard. Stop to look at and discuss objects in area. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Ask child to go find things for you. Say things like, “Go in the bathroom and get my hairbrush.” "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": " Takes part in manipulative game (pulls string, turns handle) with another person ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Push button toys and encourage him to imitate. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Pull cart toy. Place string in child’s hand. Place your hand over his and walk along, pulling toy. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Roll a toycar down a ramp. Clap or cheer when it reaches the bottom. Encourage child to repeat activity by putting car in his hand and showing him where to place it. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Cooperates with parental request 50% of the time ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Reward good behaviours. Give praise and attention when the child seeks attention appropriately. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Warn the child that the activity is going to change and give him time to finish what he is doing. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Gently but firmly guide. Do not ask questions that can be answered “no” such as, “Do you want to go to bed?” "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Try not to tell the child to do something unless you can follow through by helping him comply with your directions should he refuse. Praise the child even if help is given to aid him in following the direction. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use simple and clear language when asking a child to do something. Don’t ask him to carry out more than 2 related commands at once and don’t ask him to do 2 unrelated tasks. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Attends to music or stories 5-10 minutes.",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Read a simple and interesting story to the child. Explain the pictures to him. Ask him to describe what he sees in the pictures. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Ask simple question about the story to find out if he really did listen."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child the question you will ask before you start the story. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Read to the child daily and at the same general time each day. Make this a fun and relaxing time for both of you—let him choose the story. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Play a record that involves simple motor activities. Go through activities with child. Later see if child can carry through actions from the record alone. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Sings and dances to music.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Demonstrate clapping and marching to music with the whole family"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Turn the radio on - take child's hands and 'dance' with him showing how to move feet."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Encourage him to dance by himself- clap for and praise the child as he performs. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Provide rhythm band materials for children to play with (pots, pan, spoons)."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Sway body or nod head while singing to music. Encourage child to imitate."
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Greets familiar adults without reminders.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": " Role play, pretend daddy is coming home and let the child pretend to be daddy and then himself. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use puppets and cutouts to act out situations in which the child greets people. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Model the activity and have child imitate you, as you are greeting people. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "When you know a person familiar to the child will be arriving inform the child. If familiar adult is at the door inform the child as you go to answer the door to give him an opportunity to greet him. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Contributes to adult conversation",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Encourage child to greet visitors and answer questions."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Provide situations in which child can communicate with an adult. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Make suppertime a time when each family member tells about his or her day. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "When family decisions need to be made, encourage each child to participate in the discussion. Let child know he has a right to contribute. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Don’t ridicule or scoff at child if his ideas are not entirely appropriate. Instead, cue him in on the topic of conversation."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Discuss with child or rehearse with him what he did during day that he could use as contribution to dinner conversation. Reinforce him for appropriate contributions. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Works alone at chore for 20-30 minutes ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Give the child a choice of a chore to do. Explain what needs to be done for task that child has chosen Set a timer for 15 minutes and tell child if he works at task until timer goes off he will receive a treat. Praise child for working on task and next time set timer for 20 minutes, etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Check child’s progress and encourage him as he carries out task. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Some tasks that the child might be able to sustain interest working for longer periods of time might be raking, or picking up sticks or twigs prior to an adult mowing lawn, carrying trimmings and clippings, dusting, washing bath tubs, rolling cookie dough into balls on cookie sheets. If you work near by it will be easier for him to maintain interest. Reinforce for attending. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Plays with 4-5 children on co-operative activity without constant supervision ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "The activity should be organized, but not lengthy. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Each child should have a chance to participate in small groups. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Provide enough materials such as blocks so each child can contribute to the activity. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Play “house” or games that need cooperation from all to succeed such as tag, ring-around-rosy. "
+                }
+            ]
+        },
+        {
+            "category": "Socialization",
+            "title": "Imitates adult roles ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Provide old clothes, long dresses and a variety of hats. Play “house” or act out stories with characters wearing appropriate “costumes”. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Provide a long mirror on door or wall so child can see how he looks. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Allow child to pretend he’s the daddy or mommy for a short amount of time. Let him use props from around the house. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let child put on a play or fashion show for the family. "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Reaches for object 6-9 inches in front of him.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Suspend a toy from the ceiling on a long string and place child so he can watch toy move and dangle and reach out to hit it. Use stretchy rope to attach objects (elastic thread)."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use a favorite toy or food placed within vision. Initially assist child in reaching out and picking up objects. Call his attention to picking them up. Move his hand to touch the object."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Allow child to reach out and pat glass or slap hand on table. Demonstrate these activities so he gets idea of reaching out with his hands."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a suction toy (clown or jumping jack) attach to flat surface 6-9 inches in front of child, help child to reach and grasp toy."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Reaches for preferred object.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Limit selection of toys to just a few so he learns to accept one as his favorite. Hold toy in front of him and do not give it to him immediately. Encourage him to reach for the toy."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Secure a towel across top of crib. Tie onto it two objects that feel very different (satin cloth, net ball). After a day or two switch the objects from left to right. Later remove one object and replace with something different. Next try 3 objects. Be sure they can all be easily seen and reached by the baby."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use brightly colored objects or toys with facial features to attract his attention."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Creeps upstairs",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Position the child’s hands and knees on the stairs. Place something on the next step that he would like. Encourage him with spoken cues to get the object."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Place the child in the position and physically help him move up the stairs. Hold him, moving his knees and hands. Praise slightest efforts made by the child."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Begin with 2 steps for the child to crawl up. Place a toy or goodie on the second step and help him, if necessary, to get it. Reduce help and gradually increase the number of steps to crawl up to get the goodie."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Sit at top of stairs and call child. Encourage him to come to you. Have another person stay behind the child in case he slips or tumbles."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place several large pillows or bolsters on the floor and encourage the child to creep up on them."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Use a low stool or box against the wall. Encourage him to creep up this one step, then try short flight of stairs."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Moves from sitting to standing position",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "When the child is sitting on the floor provide a goodie or toy held above the child’s reach to encourage him to stand up. Give him the goodie or toy when he stands."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Extend your hand to him and help him get up and then praise him and give him the goodie."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Reduce the amount of assistance by letting him do more of the pulling up to reach the standing position."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a chair. Have child pull himself up to standing position. Gradually use lower chairs."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Have the child sit on the bottom stair and encourage him to stand by holding on to your hand or the banister."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Have the child sit on box or low stool, place a heavy sturdy chair in front of him that he can hold on to help pull himself up."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Walks backwards",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Choose open area to avoid bumping into things. Model activity. Have child imitate."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Lead child through activity, holding his hand. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Move your feet forward one at a time to touch his toes as a signal to move that foot back. Reinforce and verbalize, “back” as he moves."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Turns pages one at a time",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Provide the child with books to look through and manipulate."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have him turn the pages for you while read the story. Praise and thank him for helping you."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a picture book with cardboard pages. Reinforce him for success."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Show child a picture of himself. Place picture under next page to be turned to encourage child to turn page to find picture."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Make a scrapbook of pictured favorite objects, place index tabs on the corners of the pages for ease in turning."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Kicks large ball when rolled to him.",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show him what to do by walking up to ball and kicking it yourself. Then have the child imitate you."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Standing a few feet from the child, kick or roll a ball to him for him to kick back to you."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Physically guide the child in the act of kicking. Move his leg from the knee and ankle. Have him maintain balance by holding onto a chair."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Demonstrate kicking motion several times and ask child to imitate you. Praise him when he does."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Child may have to lean against a wall to start out with the kicking."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "For additional practice in kicking a ball in motion, fasten the ball as a tether between two stakes or across a gate outside, or across a doorway inside, have child kick the ball and it will return to him. Reinforce him for good kicking."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Catches ball with two hands",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have the child hold his arms out, and stand behind the child. Have someone toss ball to the child, standing at first just a foot away. Push child’s hands together to help him catch the ball. Praise and gradually reduce aid."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have the child hold his arms out. Make sure the child is watching the ball. Say, “Arms out. Here it comes.” Then gently toss the ball to him. Praise the child as he improves. Gradually increase the distance between you and the child when he is catching the ball consistently at a distance of one foot."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a large, light ball. At first, a foam rubber ball may be appropriate."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use a balloon at first so the child can get some idea of grasping onto a slowly moving object."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Stands on one foot without aid 4-8 seconds",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Place the child in a hallway or between 2 chairs. Have the child hold on to the wall of chairs with both hands as he raises one foot. Count slowly to 5, and praise the child as he gains in skill."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use one small chair or hold one of the child’s and ask him to stand on one foot."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child can stand on one foot with support, gradually reduce the support given. Go from holding on to a chair, to holding the end of a pencil (with adult on the end). "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Walking between rungs of ladder which is placed on the ground, stepping over a suspended rope and kicking a ball will provide the child with momentary practice of standing on one foot."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Let the child hold onto the pencil (without support on the other end) or a block to help him balance himself."
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Count aloud the number of seconds he stands and reward improvement. Start with the goal set at one or two seconds and gradually increase the time criteria. "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Runs changing direction",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show child how to do the activity."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Mark a course with tape, string, or markers that would necessitate changing directions."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Run relays. Play tag."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Practice running with directions such as “Go near Dad” or “Go near Mum?” using 2-3 part directions such as “run to the tree and then to the swing.”"
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Practice using “left” and “right” as direction words such as “run left, run right, run left” as directed by leader. Reinforce for following directions by allowing child to be leader."
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Skips",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Start by galloping – stepping with one foot, hopping with the other"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Stand behind the child and hold him under his arms. Push his right leg forward with yours as you begin, saying, “Step, hop, step.” Move through the motion slowly. Then do the same with the left foot. Continue until the child can step, hop, alternating feet, using verbal cues. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have the child watch you as you say and do – step, hop, step, hop, skipping slowly so he can watch each movement."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Have the child skip holding onto your hand, skip with him slowly saying, “step-hop” as you go. Praise the child as he improves."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Have the child skip by himself still giving the verbal directions of “step-hop” "
+                }
+            ]
+        },
+        {
+            "category": "Motor",
+            "title": "Uses pencil sharpener",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Show child where to insert pencil. Hold your hands over his and physically guide him through operation. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use thick pencil at first."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Instruct child to take pencil out occasionally to check if it is sharp enough."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Count the approximate number of turns needed to sharpen a pencil on your sharpener. Have the child count to that number as he turns the handle so that he does not sharpen away his entire pencil. Reinforce him for doing a good job of sharpening."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Removes cloth from face, that obscures vision.",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Lay child on back in crib. Place cloth over face. Talk to the child so he knows you are still there. Smile and hug child as he pulls cloth off eyes. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Physically guide child by holding upper arm and helping him bat at cloth; gradually withdraw aid. Reward with touching, smiling, exaggerated facial expression when cloth is removed."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Cover only one eye with the cloth and you gradually move from child’s vision. Help him tug at cloth to uncover both eyes. Reward child with praise and a kiss. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Looks for object that has been removed from direct line of vision. ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold a bright coloured toy in front of child. Remove from line of vision slowly. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use ratte or noisemaker.Remove from line of vision and shake rattle to gain child’s attention ."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child will look at person when he moves from direct line of vision, but not object; begin by holding object near your face. Move slowly out of direct line of vision. Verbalize as you do this as long as the child follows you. Gradually hold the object further from your face so child visually follows object and not you. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Put brightly colored chain around your neck. Bend over child so he sees the necklace, but not so close that he can pull it. Move slowly away from child as he watches beads. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Individually takes out 6 objects from container.",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold the container so the child must remove the objects individually and not dump them. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use colorful blocks and a large cup. Show the child how to remove the blocks. Hand the cup to the child and say “Give me the blocks”. If necessary give physical assistance by guiding the child’s  hand. Gradually withdraw physical help and give verbal clues only. Praise the child’s attempts and successes at removing each block individually from container. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put treat in bottom of container and six blocks or small toys on top. When objects are removed he can reach in and have the treat. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Put parts to a toy in container. For instance,animals to Fisher-Price barn in the silo.Have child take one out at a time and set them up."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Let child help you with a task such as taking clothes out from a laundry hamper, taking silverware from a drawer,or taking food out of a grocery bag.Put a treat for child at bottom of whatever container you use. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Points to one body part",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Hold a doll, and ask “Where is the dolly’s nose?” If necessary, guide the child’s hand and praise him as he touches the correct body part. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Point to child’s own nose and say, “Here is John’s nose.” “Where is John’s nose?” Help him by guiding his hand and reduce the help as the child learns. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Using a mirror show the child where his nose is.have him feel it, also let him feel your nose. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use any body part not necessarily his nose. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "In daily activities start mentioning the child’s body parts. Let the child wear stickers on certain body parts, i.e put a star on his hand.and ask him where’s the star? Answer for him if necessary and point at the same time, say “There it is ! It’s in your hand!” Use masking tape if stickers are not available. Have the child peel off tape as you name body part."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Finds specific book on request.",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Keep child’s books in a special pile or on a certain shelf so child knows where his books are."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use two books at first. Talk about the pictures on the cover and read books to child .Ask child to find the book about dogs from those two books. Mix the ooks in with child’s other books and ask him again to find the dog book. Praise correct response. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use two or three books that are quite different (animals, trucks and people) so the child is not confused by similar content of the books. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Draws a vertical line in imitation",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Tape paper to a wall. Have child watch you draw a vertical line from top to bottom. Ask child to imitate you. Give physical help if necessary. Gradually reduce aid as child gains in skill. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Make a cardboard template to guide child’s downward stroke. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use chalks, crayons, colored pencils, and magic makers. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Practice making vertical lines in sand or fingerpaint or shaving foam. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Put stickers at top and bottom of page. Ask child to draw from one to another. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Put M & M’s or raisins (treat that child likes) at bottom of page. Tell child he can have it if he draws a line down to it. Help him by putting his hand at top of page. "
+                },
+                {
+                    "SeqNo": "7",
+                    "Action": "Tape paper to table. Have child use crayon to push a block to top or bottom of paper .Say “ See the line? You "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": " Names big and little objects",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use 5 large blocks and 5 small blocks that are the same color. Begin by having the child sort the blocks into 2 piles according to size. The child should be able to sort without error before going on to pointing to big and little Praise correct reponse. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use two objects that differ only in size. For example, use two red balls, one big and one little. Begin with very large and very small items. Name the balls or blocks or other objects as big and little. Then ask the child to give you the big ball and then the little one. Change the position of the objects often. When the child can cosistently point to big and little without error, begin by having the child name object size; big or little. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use small penny size candy bars and the same brand of large candy bars (Wrappers are the same) Have the child name big, little. Give the candy bars as a reward."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Place 6 inch cut out circles and 3 inch cut out circles on the floor. Have child step only on the big circles, the on the little circles. Have child tell you which circle to step on ( big or little ) and he is to tell you if you are correct. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Place a treat on one of the circles. The child should correctly tell you if the circle is big or little before getting the treat. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Points to boy and girl on verbal command",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Identify family members by sex when appropriate—“ What a big boy,” “ What a pretty girl,” etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "When reading stories to the child, point out the characters in pictures as boys and girls. Then you point to one of the pictures and ask the child to point to the boy and girl. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "You point to a picture and have the child identify the picture as a boy or girl. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use boy and girl dolls (GI Joe, Barbie) and encourage the child to dress the dolls according to sex. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names long and short",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use pencils, pipe cleaners, draw lines, or cut out different lengthed strips of paper or material. Point to the long one and say, “ This is long,” then ask which one is long. Repeat again and say, “ Which one is long;”—this one. Then have the child point to the long one. Change the position of the objects ans asks the child again to show you the long one. Do the same with short. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "In the beginning use very long and very short lines and then reduce the difference gradually as the child gains in skill. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Line up whatever items you are using so that both begin in the same place-----------. Explain to the child that one is long and onr is short. When child can do this, line up the items------------and have the child tell you that one is long and one is short as he points to themh. "
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names or points to missing part of pictured object",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Draw pictures of familiar items with parts missing or use commercially prepared pictures. Have child find the part that is missing. Help the child by asking him questions like “ does the man have a head?” Withdraw your aid as the child gains proficiency. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Begin by using very obvious pictures like horse without a head, or house without a roof. Later use less  obvious items like a horse without a tail. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Have picture of a horse without leg, horse without tail, horse without head so that the child must look for what is missing rather than learning the specific pictures. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Let the child compare the incomplete picture with a complete one to aid him in finding the missing part."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Names five letters of alphabet",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Work with letters in child’s name or those he is familiar with. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have child trace and copy letters as you name them."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use letters that are very different (O, T, M, B, A). Name them for child then hold them in your hand and let child take them one at a time and name them. If child doesn’t know letter, you say the name and have him repeat it."
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Print letters on index card. Hide them around the room. As the child finds them, have him bring them to you and name them. Hide the letters and when child finds them you name them for him if he is unable to name them."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Encourage child to look for familiar letters such as letters of his name on signs and in stores."
+                }
+            ]
+        },
+        {
+            "category": "Cognitive Development",
+            "title": "Puts numerals 1 to 10 in proper sequence",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Have child match number cards to a model set up in a sequence of 1- 10. Remove one number from sequence and ask child to position numbers once more. Continue removing numbers from model sequence until child is positioning numerals. 1-10 in correct sequence without a model. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put out some numbers (1,2,6,8,9,10) and let child put in rest. Gradually reduce the number you put out until child sequences all of the numbers himself. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "If child can name numbers have him count as he puts out the numbers. When he has difficulty have him count as far as he is able and then find the one that comes next. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Repeats sound made by others  ",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Make sounds that go with game or physical activity i.e. pop beads 'p/p/p/p'"
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Say a sound like 'ah' and tells the child, say 'ah'. Say it with him and reward the child with a goodie of  praise. 'Good aaah' (repeating sound). Click tongue, clap hands, puff cheeks, blow breath. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Say various vowel sounds to the child. Say each one several times and allow child time to repeat. Initially reinforce any approximation of the sound. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Smile and make the activity enjoyable for the child. Pick up, hug, rock while doing activity. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use vowel sounds and sounds made with the lips (p, b, m) which are the easiest to produce and are visible. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Initially choose sounds, which the child has made spontaneously in his vocal play. Say these to him and have him repeat them. When child can do this, begin to have him imitate sounds, which he does not produce spontaneously. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Responds to gestures with gestures",
+            "ageGroup": "0-1",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "To teach the child to imitate your gestures, show the child what to do by taking his hands and helping him wave bye-bye, clap hands. Reduce the help as the child gains in skill and praise him each time he imitates, with or without help. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "As you say 'no-no' to the child, shake your head at the same time. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Show the child how you do an activity, help him do the activity by moving his hands or body and telling him what to do. Show the child the activity again and encourage him to perform without physical help, but tell him what to do. Show him what to do and say 'you do it' (without telling him what to do or touching him) "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Once the child can imitate these gestures, encourage him to use them by waiting for hime to extend his arms to you to be picked up, when you extend your arms. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "When offering an object hold it out to him and let him respond by shaking head or reaching for it. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Points to 3 -5 pictures in a book when named ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Begin with pictures of familiar objects. Use simple books where there is only one picture on a page. Then use of pictures of two objects on a page for the child to choose between. Praise success. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Use toy catalog, old magazines and make a scrapbook of familiar objects."
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Read nursery rhymes to the child which include familiar objects. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "If the child point to objects without difficulty but has problems pointing to pictures of the same objects, tape the picture to the object itself. For instance, taping a picture of an apple to a real apple may help him make the association."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "To aid the child in going from pointing to three dimensional objects to pointing to single dimensional picutres, taping the object, if it's small to a piece of paper may help, i.e. taping a cookie to a piece of paper. "
+                },
+                {
+                    "SeqNo": "6",
+                    "Action": "Take photographs of real objects in the child's environment aand use these. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Points to 3 body parts on self ",
+            "ageGroup": "1-2",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask 'Where is your ----------?' Take the child's hand and place it on the body part. Ex. Nose. Say, 'This is your nose.' Say 'Good, that's your nose.' Ask again 'Where is your nose?' Gradually withdraw the physical and aid until the child points to the body part on request. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Have the child point to parts on mama. 'Where's mama's nose? '' When child carries out activity, say, 'Good, that's a nose?' (Repeat the word.) "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Use a mirror and stand next to the child. First have him imitate your movements as you name the body parts for him to touch it. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Work on one body part at a time and add additional body partws only after he consistently knows the ones you've taught previously. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Name the body parts as you're bathing the child, this will help him become familiar with the words and their meaning. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Combines noun and verb in two word phrase (daddy go) ",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Say what the child is doing in daily activities-begin with 2-3 word phrases. 'Bobby eat,''Eat dinner' or 'Bobby eat dinner.' "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Do activities as a game - comb hair, shut doorr, wash hands, kick ball, ask 'What am I doing, what are you doing?'"
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Begin to look at simple action pictures or draw stick pictures ask, 'What is he doing?' or 'What happened?' "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use events or experiences that happen during the day naming them for the child using two word phrases and encourage and reinforce the child for imitating. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Uses word for bathroom need",
+            "ageGroup": "2-3",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Choose a particular word and you use it consistently to refer to toileting. When the child is being diapered use the word in explaining to him what he has done."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "If the child uses gestures such as tugging at his pants or holding himself when he needs to urinate or defecate use the word then and ask him to repeat it. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "When the child uses gestures to indicate that he needs to use the toilet ask him 'do you have to---------?' Praise him when he does. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Select a word that will have the same meaning to others who may not know the child, "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "This will help him to comunicate his needs when the family isn't around. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells full name when requested",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Ask the child, 'What's your name?' 'What's your name, Bill?' 'What's your whole name - Bill F---- What's your name? Bill Fi--- What's your whole name? Bill? Bill Who? Bill Fish--? Oh, Bill Fisher! "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Take turns naming the family by using both names, such as 'My name is Joe Jones, My name is Jane Jones, what is your name?' etc. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Call the child by his full name when talking with him. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Will attend for five minutes while story is read ",
+            "ageGroup": "3-4",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Read a simple and interesting story to the child. Explain the pictures to him. Ask him to describe what he sees in the pictures."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Ask simple questions about the story to find out if he really did listen. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Give the child the questions you will ask before you start the story. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Read to the child daily and at the same general time each day. Make this a fun and relaxing time for both of you - and let him choose the story."
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "If child is unwilling to attend, use a kitchen timer and set it for a minute or two. If the child attends to the story until the bell rings, reinforce the child with praise and a treat. Very gradually, increase the amount of time the child is required to attend before receiving the reinforcer. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Can find a pair of objects/pictures on request ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Use the word 'pair' in your speech to refer to two identical objects; pair of shoes, mittens, cards, etc. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Put out pairs of objects. Mix them up and then ask the child to find a pair of ____________. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Put out the assortment of paired objects and tell the child to put all the pairs together. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Use the procedures in 2 and 3 with pairs of pictured items. "
+                },
+                {
+                    "SeqNo": "5",
+                    "Action": "Use pictures of a single item and of pairs of those same single items. Ask the child to point to or find the one that shows a pair of _______. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Uses 'could' and 'would' in speech ",
+            "ageGroup": "4-5",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Uses 'could' and 'would' in your speech when talking to child to express possible activities. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Play verbal games such as: If I were a rabbit, I could hop, I could jump, I could wiggle my nose. Then let the child choose the pretend object or animal and tell you what he could do. Do the same with would, i.e. If I was at the park I would swing, I would ride on the merry-go-round, etc. Make sure the child prefaces each remark with 'I could' or 'I would.' "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Ask questions such as 'Who could/would do this for me?' Encourage the child to reply by saying ' I could, Billy would,' etc. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells simple jokes ",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "Tell an elephant joke to the child. Encourage him to repeat to friends and relatives."
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Read Bennet Cerf’s Book of Riddles to the child. Allow time for him to respond before turning the page that shows the answer. Example of riddles –(1) Why do birds fly south? Answer: It’s too far to walk. (2) What goes up when the rain comes down? Answer: Umbrellas. (3) What time is it when the hippo sits on the fence? Answer: Time to get a new fence. "
+                }
+            ]
+        },
+        {
+            "category": "Language and Communication Development",
+            "title": "Tells daily experiences",
+            "ageGroup": "5-6",
+            "imageUrl":"",
+            "Tasks": [
+                {
+                    "SeqNo": "1",
+                    "Action": "After carrying out an activity with child (going to store, swimming, etc.) have child tell you or another person what he did. Initially provide him with cues if necessary. "
+                },
+                {
+                    "SeqNo": "2",
+                    "Action": "Begin by having the child tell you about immediate experiences. Gradually delay having him tells you what he did. "
+                },
+                {
+                    "SeqNo": "3",
+                    "Action": "Establish a special time (before dinner, etc.) when child can tell experiences to the other parent when he/she arrives home. "
+                },
+                {
+                    "SeqNo": "4",
+                    "Action": "Initially accept short description of major events. Aid the child with cues to give more details. Gradually withdraw cues as the child gives details spontaneously. "
+                }
+            ]
+        }
+    ]
+}
