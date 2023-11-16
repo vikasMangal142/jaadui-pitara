@@ -1,14 +1,14 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "./Context/HeaderContext";
-import cong from "./config1.json"
+import cong from "./config1.json";
 
 function Home() {
   const navigate = useNavigate();
   const { setPageCount } = useContext(HeaderContext);
 
   const handleStart = () => {
-    navigate("/language");
+    navigate("/userInfo");
   };
 
   useEffect(() => {

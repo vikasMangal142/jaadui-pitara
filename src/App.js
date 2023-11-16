@@ -12,6 +12,8 @@ import { HeaderProvider } from "./Context/HeaderContext";
 import RouteChangeListener from "./RouteChangeListener";
 import Callback from "./Components/Callback";
 import UsingRegex from "./Components/UsingRegex";
+import UserInfo from "./Components/UserInfo";
+import ErrorPage from "./Components/ErrorPage";
 
 function App() {
   return (
@@ -22,12 +24,15 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home key="home" />} />
+            <Route path="/userInfo" element={<UserInfo />} />
             <Route path="/bhashini" element={<Translate />} />
             <Route path="/age" element={<Age />} />
             <Route path="/category" element={<Category />} />
             <Route path="/language" element={<Language />} />
             <Route path="/card" element={<Card />} />
             <Route path="/needHelp" element={<NeedHelp />} />
+            <Route path="/errorPage" element={<ErrorPage />} />
+
             <Route
               path="/translate/:sourceLanguage/:targetLanguage"
               // path="/translate"

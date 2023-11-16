@@ -105,12 +105,16 @@ function Card() {
     setCardIndex(cardIndex + 1);
   };
 
+  const handleTaskYes = (e) => {
+    e.preventDefault();
+  };
+  
   return (
     <>
       {filteredData.length > 0 ? (
         <>
           <div className="container dFlexAICenterJCCenter flex-1 my-4">
-            <div className="card px-5 m-4 card-styling">
+            <div className="card px-5 m-3 card-styling">
               <div className="music-btn-position d-flex align-center flex-column">
                 {speakerOn ? (
                   <>
@@ -178,7 +182,7 @@ function Card() {
                     ></img>
                   </div>
                 </div>
-                <div className="col-md-8 p-3 card-body-points">
+                <div className="col-md-8 p-3 card-body-points flex-column">
                   <ul className="list-group list-group-flush">
                     {cardData.Tasks.map((task, index) => (
                       <li key={index} className="card-body-list">
@@ -186,8 +190,27 @@ function Card() {
                       </li>
                     ))}
                   </ul>
+                  <div className="mt-4 task-box">
+                <h5 className="fw-bold">Did child complete the given task?</h5>
+                <div className="d-flex justify-content-center">
+                  <button
+                    type="button"
+                    onClick={handleTaskYes}
+                    className="mx-2 mt-2 btn btn-success task-button"
+                  >
+                    Yes
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleNextCard}
+                    className="mx-2 mt-2 btn btn-danger task-button"
+                  >
+                    Skip
+                  </button>
                 </div>
-                <div className="card-body p-0 mx-2 mb-3 d-flex justify-content-between align-items-center">
+              </div>
+                </div>
+                <div className="card-body p-0 mx-2 mb-3 mt-1 d-flex justify-content-between align-items-center">
                   <button
                     type="button"
                     onClick={handlePrevCard}
@@ -197,20 +220,20 @@ function Card() {
                     &#60;
                   </button>
                   <div className="d-flex flex-column flex-sm-row align-items-center">
-                    <button
-                      type="button"
-                      onClick={handleBack}
-                      className="m-2 btn btn-outline-success p-1 cards-button"
-                    >
-                      Back
-                    </button>
-                    <button
+                  <button
+                  type="button"
+                  onClick={handleBack}
+                  className="m-2 btn btn-outline-primary p-1 cards-button"
+                >
+                  Back to Category
+                </button>
+                    {/* <button
                       type="button"
                       onClick={handleNeedHelp}
                       className="m-2 btn btn-outline-danger p-1 cards-button"
                     >
                       Need Help
-                    </button>
+                    </button> */}
                   </div>
                   <button
                     type="button"

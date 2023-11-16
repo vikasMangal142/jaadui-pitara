@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
 
 function Header() {
-  const { language, userAge, category, pageCount } = useContext(HeaderContext);
+  const { language, userAge, category, userInfo, pageCount } =
+    useContext(HeaderContext);
 
   return (
     <div>
@@ -42,24 +43,29 @@ function Header() {
               )}
               {pageCount >= 2 && (
                 <li className="breadcrumb-item p-2">
+                  <Link to="/userInfo">User Details</Link>
+                </li>
+              )}
+              {pageCount >= 3 && (
+                <li className="breadcrumb-item p-2">
                   <Link to="/language">
                     Language {language && <>({language})</>}
                   </Link>
                 </li>
               )}
-              {pageCount >= 3 && (
+              {pageCount >= 4 && (
                 <li className="breadcrumb-item p-2">
                   <Link to="/category">
                     Category {category && <>({category})</>}
                   </Link>
                 </li>
               )}
-              {pageCount >= 4 && (
+              {pageCount >= 5 && (
                 <li className="breadcrumb-item p-2">
                   <Link to="/age">Age Group {userAge && <>({userAge})</>}</Link>
                 </li>
               )}
-              {pageCount >= 5 && (
+              {pageCount >= 6 && (
                 <li className="breadcrumb-item active p-2" aria-current="page">
                   <Link to="/card">Cards</Link>
                 </li>
