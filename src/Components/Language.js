@@ -9,7 +9,7 @@ function Language() {
   const [lang, setLang] = useState();
 
   useEffect(() => {
-    setPageCount(2);
+    setPageCount(3);
     setLanguage(null);
   }, []);
 
@@ -27,10 +27,10 @@ function Language() {
 
   return (
     <>
-      <div className="container dFlexAICenterJCCenter flex-column my-4 flex-1">
+      <div className="container dFlexAICenterJCCenter my-4 flex-1">
         <div className="container selection-buttons-outer-container">
-          <div className="fw-bold mt-3 text-center p-3 selection-header">
-            Select your language
+          <div className="mt-4 text-center p-3 selection-header">
+            <h1 className="fw-bold display-5">Select your language</h1>
           </div>
           <div className="container m-2 flex-lg-row selection-buttons">
             <button

@@ -7,7 +7,7 @@ function Category() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageCount(3);
+    setPageCount(4);
     setCategory(null);
   }, []);
 
@@ -23,10 +23,10 @@ function Category() {
   };
 
   return (
-    <div className="container dFlexAICenterJCCenter flex-column my-4 flex-1">
+    <div className="container dFlexAICenterJCCenter my-4 flex-1">
       <div className="container selection-buttons-outer-container">
-        <div className="fw-bold mt-3 text-center p-3 selection-header">
-          Select a category
+        <div className="mt-4 text-center p-3 selection-header">
+          <h1 className="fw-bold display-5">Select a category</h1>
         </div>
         <div className="container m-2 flex-lg-row selection-buttons">
           <button
@@ -75,7 +75,7 @@ function Category() {
         <button
           type="button"
           onClick={handleBackClick}
-          className="m-4 btn btn-success"
+          className="m-4 btn btn-success cards-button"
         >
           &#60; Back
         </button>

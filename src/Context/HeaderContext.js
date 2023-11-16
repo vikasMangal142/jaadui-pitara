@@ -14,6 +14,9 @@ export const HeaderProvider = ({ children }) => {
   const [category, setCategory] = useState(
     localStorage.getItem("category") ? localStorage.getItem("category") : null
   );
+  const [userInfo, setUserInfo] = useState(
+    localStorage.getItem("userInfo") ? localStorage.getItem("userInfo") : null
+  );
   const [pageCount, setPageCount] = useState(1);
 
   const data = {
@@ -25,6 +28,8 @@ export const HeaderProvider = ({ children }) => {
     setCategory: setCategory,
     pageCount: pageCount,
     setPageCount: setPageCount,
+    userInfo: userInfo,
+    setUserInfo: setUserInfo,
   };
   return (
     <HeaderContext.Provider value={data}>{children}</HeaderContext.Provider>

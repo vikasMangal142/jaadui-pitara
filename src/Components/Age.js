@@ -8,17 +8,17 @@ import { useState, useParams } from "react";
 const translatedArrayOfCards = [];
 
 const IndianLanguages = [
-  { name: 'हिन्दी', code: 'hi' },
-  { name: 'ଓଡିଆ', code: 'or' },
-  { name: 'ગુજરાતી', code: 'gu' },
-  { name: 'मराठी', code: 'mr' },
-  { name: 'বাংলা', code: 'bn' },
-  { name: 'मैथिली', code: 'mai' },
-  { name: 'ਪੰਜਾਬੀ', code: 'pa' },
-  { name: 'മലയാളം', code: 'ml' },
-  { name: 'தமிழ்', code: 'ta' },
-  { name: 'తెలుగు', code: 'te' },
-  { name: 'ಕನ್ನಡ', code: 'kn' }
+  { name: "हिन्दी", code: "hi" },
+  { name: "ଓଡିଆ", code: "or" },
+  { name: "ગુજરાતી", code: "gu" },
+  { name: "मराठी", code: "mr" },
+  { name: "বাংলা", code: "bn" },
+  { name: "मैथिली", code: "mai" },
+  { name: "ਪੰਜਾਬੀ", code: "pa" },
+  { name: "മലയാളം", code: "ml" },
+  { name: "தமிழ்", code: "ta" },
+  { name: "తెలుగు", code: "te" },
+  { name: "ಕನ್ನಡ", code: "kn" },
 ];
 
 function translateAllCards(targetLanguage, categoryObject, setCategoryObject) {
@@ -48,7 +48,7 @@ function Age() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageCount(4);
+    setPageCount(5);
     setUserAge(null);
   }, []);
 
@@ -66,11 +66,25 @@ function Age() {
   const [categoryObject, setCategoryObject] = useState({});
 
   useEffect(() => {
-    if(localStorage.getItem("language")){
+    if (localStorage.getItem("language")) {
       console.log("hello ", localStorage.getItem("language"));
-      if(localStorage.getItem("language") && localStorage.getItem("language")!=="English"){
-        console.log("vdfsd:" , IndianLanguages.find((lango)=> lango.name === localStorage.getItem("language")).code);
-        translateAllCards(IndianLanguages.find((lango)=> lango.name === localStorage.getItem("language")).code, categoryObject, setCategoryObject);
+      if (
+        localStorage.getItem("language") &&
+        localStorage.getItem("language") !== "English"
+      ) {
+        console.log(
+          "vdfsd:",
+          IndianLanguages.find(
+            (lango) => lango.name === localStorage.getItem("language")
+          ).code
+        );
+        translateAllCards(
+          IndianLanguages.find(
+            (lango) => lango.name === localStorage.getItem("language")
+          ).code,
+          categoryObject,
+          setCategoryObject
+        );
       }
     }
   }, []);
@@ -79,8 +93,8 @@ function Age() {
     <>
       <div className="container dFlexAICenterJCCenter my-4 flex-1">
         <div className="container selection-buttons-outer-container">
-          <div className="fw-bold mt-3 text-center p-3 selection-header">
-            Which age group you are in?
+          <div className=" mt-4 text-center p-3 selection-header">
+            <h1 className="fw-bold display-5">Which age group you are in?</h1>
           </div>
 
           <div className="container m-2 flex-lg-row selection-buttons">
@@ -134,7 +148,7 @@ function Age() {
           <button
             type="button"
             onClick={handleBackClick}
-            className="m-4 btn btn-success"
+            className="m-4 btn btn-success cards-button"
           >
             &#60; Back
           </button>
