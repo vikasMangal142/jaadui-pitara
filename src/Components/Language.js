@@ -2,6 +2,22 @@ import React, { useContext, useEffect, useState } from "react";
 import "./Language.css";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
+import UsingRegex from "./UsingRegex";
+
+
+const IndianLanguages = [
+  { name: 'हिन्दी', code: 'hi' },
+  { name: 'ଓଡିଆ', code: 'or' },
+  { name: 'ગુજરાતી', code: 'gu' },
+  { name: 'मराठी', code: 'mr' },
+  { name: 'বাংলা', code: 'bn' },
+  { name: 'मैथिली', code: 'mai' },
+  { name: 'ਪੰਜਾਬੀ', code: 'pa' },
+  { name: 'മലയാളം', code: 'ml' },
+  { name: 'தமிழ்', code: 'ta' },
+  { name: 'తెలుగు', code: 'te' },
+  { name: 'ಕನ್ನಡ', code: 'kn' }
+];
 
 function Language() {
   const { setLanguage, setPageCount } = useContext(HeaderContext);
@@ -18,6 +34,9 @@ function Language() {
   };
 
   const handleLanguageSelection = (value) => {
+    console.log("vikasfdsvs");
+    console.log(IndianLanguages.find((lango)=> lango.name  === value).code);
+    <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
     console.log(value);
     setLanguage(value);
     localStorage.setItem("language", value);
