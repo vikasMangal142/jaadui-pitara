@@ -25,13 +25,13 @@ body {
   width: 15rem;
 }
 
-.option-tab {
+.option-tab{
   /* background-color: #4db8ff; */
   background-color: white;
-  border-radius: 2rem;
+  border-radius:2rem;
   font-size: 1.5rem;
-  width: 15rem;
-  font-family: roboto-mono;
+  width:15rem;
+  font-family:roboto-mono;
   border-width: 0.5rem;
   border-color: #cfede4;
 }

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "./Context/HeaderContext";
+import cong from "./config1.json"
 
 function Home() {
   const navigate = useNavigate();
@@ -14,6 +15,8 @@ function Home() {
     setPageCount(1);
     console.log("Home");
   }, []);
+
+  console.log("string: ", JSON.stringify(cong));
 
   return (
     <div className="container dFlexAICenterJCCenter flex-1">

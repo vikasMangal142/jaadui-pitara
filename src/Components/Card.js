@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import img from "./img.png";
-import { useNavigate } from "react-router-dom";
+import { json, useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
+
 
 function Card() {
   const navigate = useNavigate();
@@ -51,10 +52,11 @@ function Card() {
     }
   };
 
-  speech.onend = function (event) {
-    console.log("Speech has ended");
+
+  speech.onend = function(event) {
+    console.log('Speech has ended');
     setSpeakerOn(false);
-  };
+};
 
   const handlePause = () => {
     if (!pause) {
@@ -96,6 +98,9 @@ function Card() {
     localStorage.setItem("cardIndex", parseInt(cardIndex + 1, 10));
     setCardIndex(cardIndex + 1);
   };
+
+
+
 
   return (
     <>

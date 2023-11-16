@@ -8,17 +8,17 @@ import { useState, useParams } from "react";
 const translatedArrayOfCards = [];
 
 const IndianLanguages = [
-  { name: "हिन्दी", code: "hi" },
-  { name: "ଓଡିଆ", code: "or" },
-  { name: "ગુજરાતી", code: "gu" },
-  { name: "मराठी", code: "mr" },
-  { name: "বাংলা", code: "bn" },
-  { name: "मैथिली", code: "mai" },
-  { name: "ਪੰਜਾਬੀ", code: "pa" },
-  { name: "മലയാളം", code: "ml" },
-  { name: "தமிழ்", code: "ta" },
-  { name: "తెలుగు", code: "te" },
-  { name: "ಕನ್ನಡ", code: "kn" },
+  { name: 'हिन्दी', code: 'hi' },
+  { name: 'ଓଡିଆ', code: 'or' },
+  { name: 'ગુજરાતી', code: 'gu' },
+  { name: 'मराठी', code: 'mr' },
+  { name: 'বাংলা', code: 'bn' },
+  { name: 'मैथिली', code: 'mai' },
+  { name: 'ਪੰਜਾਬੀ', code: 'pa' },
+  { name: 'മലയാളം', code: 'ml' },
+  { name: 'தமிழ்', code: 'ta' },
+  { name: 'తెలుగు', code: 'te' },
+  { name: 'ಕನ್ನಡ', code: 'kn' }
 ];
 
 function translateAllCards(targetLanguage, categoryObject, setCategoryObject) {
@@ -66,25 +66,11 @@ function Age() {
   const [categoryObject, setCategoryObject] = useState({});
 
   useEffect(() => {
-    if (localStorage.getItem("language")) {
+    if(localStorage.getItem("language")){
       console.log("hello ", localStorage.getItem("language"));
-      if (
-        localStorage.getItem("language") &&
-        localStorage.getItem("language") !== "English"
-      ) {
-        console.log(
-          "vdfsd:",
-          IndianLanguages.find(
-            (lango) => lango.name === localStorage.getItem("language")
-          ).code
-        );
-        translateAllCards(
-          IndianLanguages.find(
-            (lango) => lango.name === localStorage.getItem("language")
-          ).code,
-          categoryObject,
-          setCategoryObject
-        );
+      if(localStorage.getItem("language") && localStorage.getItem("language")!=="English"){
+        console.log("vdfsd:" , IndianLanguages.find((lango)=> lango.name === localStorage.getItem("language")).code);
+        translateAllCards(IndianLanguages.find((lango)=> lango.name === localStorage.getItem("language")).code, categoryObject, setCategoryObject);
       }
     }
   }, []);
