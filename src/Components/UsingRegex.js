@@ -60,8 +60,8 @@ function decode(str) {
   });
 }
 
-function UsingRegex() {
-  const { targetLanguage } = useParams();
+function UsingRegex(props) {
+  const { targetLanguage } = props.targetLanguage;
   const [translatedCardsDataEncoded, setTranslatedCardsDataEncoded] =
     useState();
 
