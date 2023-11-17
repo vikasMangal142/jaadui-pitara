@@ -2,7 +2,6 @@ import React, { useContext, useEffect, useState } from "react";
 import "./Language.css";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
-import UsingRegex from "./UsingRegex";
 
 
 const IndianLanguages = [
@@ -41,7 +40,7 @@ function Language() {
     setLanguage(value);
     localStorage.setItem("language", value);
     setLang(value);
-    navigate("/category");
+    navigate(`/translate/usingRegex/${IndianLanguages.find((lango)=> lango.name  === value).code}`);
   };
 
   return (

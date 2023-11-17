@@ -20,7 +20,7 @@ function Category() {
   };
 
   const handleBackClick = () => {
-    navigate(-1);
+    navigate("/language");
   };
 
   return (
@@ -32,17 +32,17 @@ function Category() {
         <div className="container m-2 flex-lg-row selection-buttons">
           <button
             type="button"
-            onClick={() => handleCategorySelection("Language")}
+            onClick={() => handleCategorySelection("Language and Communication Development")}
             className="btn btn-outline-dark px-4 my-2 option-tab"
           >
-            Language
+            Language and Communication Development
           </button>
           <button
             type="button"
-            onClick={() => handleCategorySelection("Cognitive")}
+            onClick={() => handleCategorySelection("Cognitive Development")}
             className="btn btn-outline-dark px-4 my-2 option-tab"
           >
-            Cognitive
+            Cognitive Development
           </button>
           <button
             type="button"
