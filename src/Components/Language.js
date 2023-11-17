@@ -36,7 +36,7 @@ function Language() {
   const handleLanguageSelection = (value) => {
     console.log("vikasfdsvs");
     console.log(IndianLanguages.find((lango)=> lango.name  === value).code);
-    <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
+    // <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
     console.log(value);
     setLanguage(value);
     localStorage.setItem("language", value);

@@ -32,6 +32,7 @@ function ErrorPage() {
   }, [seconds]);
 
   const tryAgainHandler = () => {
+    setSeconds(5);
     // e.preventDefault();
   };
   return (
@@ -47,6 +48,7 @@ function ErrorPage() {
             type="button"
             onClick={tryAgainHandler}
             className="btn btn-success cards-button"
+            disabled = {seconds>0}
           >
             Try again
           </button>
