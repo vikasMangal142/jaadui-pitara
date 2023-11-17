@@ -50,7 +50,7 @@ function UserInfo() {
                   name="userName"
                   placeholder="Your Name"
                   onChange={changeHandler}
-                  value={ userInfo ? (userInfo.userName !== null ? userInfo.userName : ""):data.userName}
+                  // value={ userInfo ? (userInfo.userName !== null ? userInfo.userName : ""):data.userName}
                   required
                 />
               </div>
@@ -65,7 +65,7 @@ function UserInfo() {
                   pattern="[1-9][0-9]{9}"
                   title="Please enter a valid contact number."
                   onChange={changeHandler}
-                  value={ userInfo ? (userInfo.userContact !== null ? userInfo.userContact: ""):data.userContact}
+                  // value={ userInfo ? (userInfo.userContact !== null ? userInfo.userContact: ""):data.userContact}
                   required
                 />
               </div>
