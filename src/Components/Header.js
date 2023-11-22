@@ -7,7 +7,7 @@ function Header() {
     useContext(HeaderContext);
 
   return (
-    <div>
+    <div className="sticky-header">
       <nav
         className="navbar navbar-expand-lg navbar-light header-styling"
         aria-label="breadcrumb"

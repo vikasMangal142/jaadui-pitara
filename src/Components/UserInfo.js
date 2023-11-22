@@ -49,6 +49,8 @@ function UserInfo() {
                   id="userName"
                   name="userName"
                   placeholder="Your Name"
+                  pattern="[a-zA-Z0-9]+"
+                  title="Enter only alphanumeric characters"
                   onChange={changeHandler}
                   // value={ userInfo ? (userInfo.userName !== null ? userInfo.userName : ""):data.userName}
                   required
@@ -63,7 +65,7 @@ function UserInfo() {
                   name="userContact"
                   placeholder="Your Contact No."
                   pattern="[1-9][0-9]{9}"
-                  title="Please enter a valid contact number."
+                  title="Enter a 10-digit contact number"
                   onChange={changeHandler}
                   // value={ userInfo ? (userInfo.userContact !== null ? userInfo.userContact: ""):data.userContact}
                   required
@@ -78,7 +80,7 @@ function UserInfo() {
                   &#60; Back
                 </button>
                 <button type="submit" className="my-4 btn btn-success">
-                  Next >
+                  Next &#62;
                 </button>
               </div>
             </form>
