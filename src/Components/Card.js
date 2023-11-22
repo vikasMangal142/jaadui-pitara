@@ -255,7 +255,9 @@ function Card() {
                     <div className="d-flex justify-content-center">
                       <button
                         type="button"
+
                         onClick={handleTaskYes}
+//                         disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-success task-button"
                       >
                         Yes
@@ -263,6 +265,7 @@ function Card() {
                       <button
                         type="button"
                         onClick={handleTaskSkip}
+//                         disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-danger task-button"
                       >
                         Skip
