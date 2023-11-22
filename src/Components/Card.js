@@ -32,11 +32,9 @@ function Card() {
   useEffect(() => {
     window.speechSynthesis.cancel();
     setSpeakerOn(false);
-    if(filteredData.length>0){
+    if (filteredData.length > 0) {
       if (cardIndex >= 0 && cardIndex <= config.length - 1) {
-        setReadText(
-          cardData.title + cardData.Tasks.flatMap((task) => task)
-        );
+        setReadText(cardData.title + cardData.Tasks.flatMap((task) => task));
       }
     }
   }, [cardIndex]);
@@ -108,7 +106,7 @@ function Card() {
   const handleTaskYes = (e) => {
     e.preventDefault();
   };
-  
+
   return (
     <>
       {filteredData.length > 0 ? (
@@ -191,24 +189,28 @@ function Card() {
                     ))}
                   </ul>
                   <div className="mt-4 task-box">
-                <h5 className="fw-bold">Did child complete the given task?</h5>
-                <div className="d-flex justify-content-center">
-                  <button
-                    type="button"
-                    onClick={handleTaskYes}
-                    className="mx-2 mt-2 btn btn-success task-button"
-                  >
-                    Yes
-                  </button>
-                  <button
-                    type="button"
-                    onClick={handleNextCard}
-                    className="mx-2 mt-2 btn btn-danger task-button"
-                  >
-                    Skip
-                  </button>
-                </div>
-              </div>
+                    <h5 className="fw-bold">
+                      Did child complete the given task?
+                    </h5>
+                    <div className="d-flex justify-content-center">
+                      <button
+                        type="button"
+                        onClick={handleNextCard}
+                        disabled={cardIndex + 1 >= filteredData.length}
+                        className="mx-2 mt-2 btn btn-success task-button"
+                      >
+                        Yes
+                      </button>
+                      <button
+                        type="button"
+                        onClick={handleNextCard}
+                        disabled={cardIndex + 1 >= filteredData.length}
+                        className="mx-2 mt-2 btn btn-danger task-button"
+                      >
+                        Skip
+                      </button>
+                    </div>
+                  </div>
                 </div>
                 <div className="card-body p-0 mx-2 mb-3 mt-1 d-flex justify-content-between align-items-center">
                   <button
@@ -220,13 +222,13 @@ function Card() {
                     &#60;
                   </button>
                   <div className="d-flex flex-column flex-sm-row align-items-center">
-                  <button
-                  type="button"
-                  onClick={handleBack}
-                  className="m-2 btn btn-outline-primary p-1 cards-button"
-                >
-                  Back to Category
-                </button>
+                    <button
+                      type="button"
+                      onClick={handleBack}
+                      className="m-2 btn btn-outline-primary p-1 cards-button"
+                    >
+                      Back to Category
+                    </button>
                     {/* <button
                       type="button"
                       onClick={handleNeedHelp}
