@@ -108,10 +108,10 @@ function Card() {
     const data = {
       cardIndex: cardData.cardIndex,
       category: cardData.category,
-      userId: userData.userName+userData.userContact,
+      userId: userData.userName + userData.userContact,
       ageGroup: cardData.ageGroup,
       timeStamp: Date.now(),
-      status:"Success"
+      status: "Success",
     };
     fetch(
       "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",
@@ -133,6 +133,9 @@ function Card() {
         // Errors are reported there
         console.log(error);
       });
+    if (!(cardIndex + 1 >= filteredData.length)) {
+      handleNextCard();
+    }
   };
 
   const handleTaskSkip = (e) => {
@@ -140,10 +143,10 @@ function Card() {
     const data = {
       cardIndex: cardData.cardIndex,
       category: cardData.category,
-      userId: userData.userName+userData.userContact,
+      userId: userData.userName + userData.userContact,
       ageGroup: cardData.ageGroup,
       timeStamp: Date.now(),
-      status:"Pending"
+      status: "Pending",
     };
     fetch(
       "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",
@@ -165,7 +168,10 @@ function Card() {
         // Errors are reported there
         console.log(error);
       });
-  }
+    if (!(cardIndex + 1 >= filteredData.length)) {
+      handleNextCard();
+    }
+  };
 
   return (
     <>
@@ -255,9 +261,8 @@ function Card() {
                     <div className="d-flex justify-content-center">
                       <button
                         type="button"
-
                         onClick={handleTaskYes}
-//                         disabled={cardIndex + 1 >= filteredData.length}
+                        //disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-success task-button"
                       >
                         Yes
@@ -265,7 +270,7 @@ function Card() {
                       <button
                         type="button"
                         onClick={handleTaskSkip}
-//                         disabled={cardIndex + 1 >= filteredData.length}
+                        // disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-danger task-button"
                       >
                         Skip
@@ -313,7 +318,22 @@ function Card() {
         </>
       ) : (
         <>
-          <div>No Cards To Display</div>
+          <div className="container dFlexAICenterJCCenter flex-1">
+            <div className="card px-5 mx-2 card-styling home-card">
+              <div className="card-body dFlexAICenterJCCenter flex-column">
+                <h5 className="card-title mt-4 fw-bold display-6 text-center">
+                  No cards to display
+                </h5>
+                <button
+                  onClick={handleBack}
+                  type="button"
+                  className=" mt-3 btn btn-success"
+                >
+                  &#60; Back
+                </button>
+              </div>
+            </div>
+          </div>
         </>
       )}
     </>
