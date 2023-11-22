@@ -78,9 +78,10 @@ function UsingRegex() {
         categoryInEnglish: card.category,
         ageGroup: card.ageGroup,
         imageUrl: card.imageUrl,
+        cardIndex: card.cardIndex
       });
       names.forEach((name) => {
-        if (name === "ageGroup" || name === "imageUrl") return;
+        if (name === "ageGroup" || name === "imageUrl" || name === "cardIndex") return;
         str += "($)";
         if (name !== "Tasks") {
           str += card[name];

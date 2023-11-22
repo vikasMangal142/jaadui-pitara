@@ -20,7 +20,7 @@ function Card() {
   const config = JSON.parse(
     localStorage.getItem(localStorage.getItem("category"))
   );
-
+  const userData = JSON.parse(localStorage.getItem("userInfo"));
   console.log("AGE: ", localStorage.getItem("userAge"));
 
   const filteredData = config.filter(
@@ -105,7 +105,67 @@ function Card() {
 
   const handleTaskYes = (e) => {
     e.preventDefault();
+    const data = {
+      cardIndex: cardData.cardIndex,
+      category: cardData.category,
+      userId: userData.userName+userData.userContact,
+      ageGroup: cardData.ageGroup,
+      timeStamp: Date.now(),
+      status:"Success"
+    };
+    fetch(
+      "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",
+      {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        // The response comes here
+        console.log(data);
+      })
+      .catch((error) => {
+        // Errors are reported there
+        console.log(error);
+      });
   };
+
+  const handleTaskSkip = (e) => {
+    e.preventDefault();
+    const data = {
+      cardIndex: cardData.cardIndex,
+      category: cardData.category,
+      userId: userData.userName+userData.userContact,
+      ageGroup: cardData.ageGroup,
+      timeStamp: Date.now(),
+      status:"Pending"
+    };
+    fetch(
+      "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",
+      {
+        method: "POST",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }
+    )
+      .then((r) => r.json())
+      .then((data) => {
+        // The response comes here
+        console.log(data);
+      })
+      .catch((error) => {
+        // Errors are reported there
+        console.log(error);
+      });
+  }
 
   return (
     <>
@@ -195,16 +255,17 @@ function Card() {
                     <div className="d-flex justify-content-center">
                       <button
                         type="button"
-                        onClick={handleNextCard}
-                        disabled={cardIndex + 1 >= filteredData.length}
+
+                        onClick={handleTaskYes}
+//                         disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-success task-button"
                       >
                         Yes
                       </button>
                       <button
                         type="button"
-                        onClick={handleNextCard}
-                        disabled={cardIndex + 1 >= filteredData.length}
+                        onClick={handleTaskSkip}
+//                         disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-danger task-button"
                       >
                         Skip
