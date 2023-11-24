@@ -17,7 +17,7 @@ function UserInfo() {
   }, []);
 
   const handleBackClick = () => {
-    navigate(-1);
+    navigate("/");
   };
 
   const changeHandler = (e) => {
