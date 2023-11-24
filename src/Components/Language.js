@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import "./Language.css";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
 
@@ -15,10 +14,7 @@ const IndianLanguages = [
   { name: "தமிழ்", code: "ta" },
   { name: "తెలుగు", code: "te" },
   { name: "ಕನ್ನಡ", code: "kn" },
-  {
-    name: "English",
-    code: "en",
-  },
+  { name: "English", code: "en",}
 ];
 
 function Language() {
@@ -32,7 +28,7 @@ function Language() {
   }, []);
 
   const handleBackClick = () => {
-    navigate(-1);
+    navigate("/userInfo");
   };
 
   const handleLanguageSelection = (value) => {

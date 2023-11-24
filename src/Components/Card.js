@@ -78,11 +78,15 @@ function Card() {
   };
 
   useEffect(() => {
-    setPageCount(5);
+    setPageCount(6);
   }, []);
 
   const handleBack = () => {
     navigate(-1);
+  };
+
+  const handleBackToCategory = () => {
+    navigate("/category");
   };
 
   const handleNeedHelp = () => {
@@ -134,6 +138,9 @@ function Card() {
         // Errors are reported there
         console.log(error);
       });
+    if (!(cardIndex + 1 >= filteredData.length)) {
+      handleNextCard();
+    }
   };
 
   const handleTaskSkip = (e) => {
@@ -167,7 +174,10 @@ function Card() {
         // Errors are reported there
         console.log(error);
       });
-  }
+    if (!(cardIndex + 1 >= filteredData.length)) {
+      handleNextCard();
+    }
+  };
 
   return (
     <>
@@ -257,9 +267,8 @@ function Card() {
                     <div className="d-flex justify-content-center">
                       <button
                         type="button"
-
                         onClick={handleTaskYes}
-//                         disabled={cardIndex + 1 >= filteredData.length}
+                        //disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-success task-button"
                       >
                         Yes
@@ -267,7 +276,7 @@ function Card() {
                       <button
                         type="button"
                         onClick={handleTaskSkip}
-//                         disabled={cardIndex + 1 >= filteredData.length}
+                        // disabled={cardIndex + 1 >= filteredData.length}
                         className="mx-2 mt-2 btn btn-danger task-button"
                       >
                         Skip
@@ -287,7 +296,7 @@ function Card() {
                   <div className="d-flex flex-column flex-sm-row align-items-center">
                     <button
                       type="button"
-                      onClick={handleBack}
+                      onClick={handleBackToCategory}
                       className="m-2 btn btn-outline-primary p-1 cards-button"
                     >
                       Back to Category
@@ -315,7 +324,22 @@ function Card() {
         </>
       ) : (
         <>
-          <div>No Cards To Display</div>
+          <div className="container dFlexAICenterJCCenter flex-1">
+            <div className="card px-5 mx-2 card-styling home-card">
+              <div className="card-body dFlexAICenterJCCenter flex-column">
+                <h5 className="card-title mt-4 fw-bold display-6 text-center">
+                  No cards to display
+                </h5>
+                <button
+                  onClick={handleBack}
+                  type="button"
+                  className=" mt-3 btn btn-success"
+                >
+                  &#60; Back
+                </button>
+              </div>
+            </div>
+          </div>
         </>
       )}
     </>

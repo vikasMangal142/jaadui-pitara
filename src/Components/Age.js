@@ -48,12 +48,12 @@ function Age() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    setPageCount(4);
+    setPageCount(5);
     setUserAge(null);
   }, []);
 
   const handleBackClick = () => {
-    navigate(-1);
+    navigate("/category");
   };
 
   const handleAgeSelection = (value) => {
