@@ -107,11 +107,12 @@ function Card() {
     e.preventDefault();
     const data = {
       cardIndex: cardData.cardIndex,
-      category: cardData.category,
+      category: cardData.categoryInEnglish,
       userId: userData.userName+userData.userContact,
       ageGroup: cardData.ageGroup,
       timeStamp: Date.now(),
-      status:"Success"
+      status:"Success",
+      language:(localStorage.getItem("languageCode")?localStorage.getItem("languageCode"):"en")
     };
     fetch(
       "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",
@@ -139,11 +140,12 @@ function Card() {
     e.preventDefault();
     const data = {
       cardIndex: cardData.cardIndex,
-      category: cardData.category,
+      category: cardData.categoryInEnglish,
       userId: userData.userName+userData.userContact,
       ageGroup: cardData.ageGroup,
       timeStamp: Date.now(),
-      status:"Pending"
+      status:"Pending",
+      language:(localStorage.getItem("languageCode")?localStorage.getItem("languageCode"):"en")
     };
     fetch(
       "https://sheet.best/api/sheets/f38fbee0-5173-4aaf-8dcf-a2a973707444",

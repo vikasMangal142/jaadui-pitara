@@ -3,19 +3,22 @@ import "./Language.css";
 import { useNavigate } from "react-router-dom";
 import HeaderContext from "../Context/HeaderContext";
 
-
 const IndianLanguages = [
-  { name: 'हिन्दी', code: 'hi' },
-  { name: 'ଓଡିଆ', code: 'or' },
-  { name: 'ગુજરાતી', code: 'gu' },
-  { name: 'मराठी', code: 'mr' },
-  { name: 'বাংলা', code: 'bn' },
-  { name: 'मैथिली', code: 'mai' },
-  { name: 'ਪੰਜਾਬੀ', code: 'pa' },
-  { name: 'മലയാളം', code: 'ml' },
-  { name: 'தமிழ்', code: 'ta' },
-  { name: 'తెలుగు', code: 'te' },
-  { name: 'ಕನ್ನಡ', code: 'kn' }
+  { name: "हिन्दी", code: "hi" },
+  { name: "ଓଡିଆ", code: "or" },
+  { name: "ગુજરાતી", code: "gu" },
+  { name: "मराठी", code: "mr" },
+  { name: "বাংলা", code: "bn" },
+  { name: "मैथिली", code: "mai" },
+  { name: "ਪੰਜਾਬੀ", code: "pa" },
+  { name: "മലയാളം", code: "ml" },
+  { name: "தமிழ்", code: "ta" },
+  { name: "తెలుగు", code: "te" },
+  { name: "ಕನ್ನಡ", code: "kn" },
+  {
+    name: "English",
+    code: "en",
+  },
 ];
 
 function Language() {
@@ -34,13 +37,20 @@ function Language() {
 
   const handleLanguageSelection = (value) => {
     console.log("vikasfdsvs");
-    console.log(IndianLanguages.find((lango)=> lango.name  === value).code);
+    const languageCode = IndianLanguages.find(
+      (lango) => lango.name === value
+    ).code;
     // <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
     console.log(value);
     setLanguage(value);
     localStorage.setItem("language", value);
+    localStorage.setItem("languageCode", languageCode);
     setLang(value);
-    navigate(`/translate/usingRegex/${IndianLanguages.find((lango)=> lango.name  === value).code}`);
+    navigate(
+      `/translate/usingRegex/${
+        IndianLanguages.find((lango) => lango.name === value).code
+      }`
+    );
   };
 
   return (
