@@ -25,7 +25,7 @@ function Home() {
           <h1 className="card-title mt-4 fw-bold display-1 text-center dancing-script-font fw-2">
             Prarambh
           </h1>
-          <h5 className="m-2 ">Prarambhik Bal Vikas</h5>
+          <h5 className="m-2 text-center">Prarambhik Bal Vikas</h5>
           <button
             onClick={handleStart}
             type="button"
