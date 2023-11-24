@@ -97,7 +97,8 @@ function UsingRegex() {
       // str+="(@)";
     });
     console.log("Encoded Cards Data : ", str);
-    translate1(str, targetLanguage, setTranslatedCardsDataEncoded);
+    if(targetLanguage!=="en") translate1(str, targetLanguage, setTranslatedCardsDataEncoded);
+    else setTranslatedCardsDataEncoded(str);
   }, []);
 
   useEffect(() => {

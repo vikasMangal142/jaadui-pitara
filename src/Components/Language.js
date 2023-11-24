@@ -14,6 +14,7 @@ const IndianLanguages = [
   { name: "தமிழ்", code: "ta" },
   { name: "తెలుగు", code: "te" },
   { name: "ಕನ್ನಡ", code: "kn" },
+  { name: "English", code: "en",}
 ];
 
 function Language() {
@@ -32,8 +33,11 @@ function Language() {
 
   const handleLanguageSelection = (value) => {
     console.log("vikasfdsvs");
-    console.log(IndianLanguages.find((lango) => lango.name === value).code);
+    const languageCode = IndianLanguages.find(
+      (lango) => lango.name === value
+    ).code;
     // <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
+
     if(localStorage.getItem("language") === value){
       navigate("/category")
     }
@@ -41,6 +45,7 @@ function Language() {
       console.log(value);
       setLanguage(value);
       localStorage.setItem("language", value);
+      localStorage.setItem("languageCode", languageCode);
       setLang(value);
       navigate(
         `/translate/usingRegex/${
