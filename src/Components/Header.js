@@ -38,20 +38,22 @@ function Header() {
             <ol className="breadcrumb">
               {pageCount >= 1 && (
                 <li className="breadcrumb-item m-2">
-                  <Link to="/">{pageCount == 1 ? <b>Home</b> : <>Home</>}</Link>
+                  <Link to="/">
+                    {pageCount === 1 ? <b>Home</b> : <>Home</>}
+                  </Link>
                 </li>
               )}
               {pageCount >= 2 && (
                 <li className="breadcrumb-item p-2">
                   <Link to="/userInfo">
-                    {pageCount == 2 ? <b>User Details</b> : <>User Details</>}
+                    {pageCount === 2 ? <b>User Details</b> : <>User Details</>}
                   </Link>
                 </li>
               )}
               {pageCount >= 3 && (
                 <li className="breadcrumb-item p-2">
                   <Link to="/language">
-                    {pageCount == 3 ? (
+                    {pageCount === 3 ? (
                       <b>Language {language && <>({language})</>}</b>
                     ) : (
                       <>Language {language && <>({language})</>}</>
@@ -63,7 +65,7 @@ function Header() {
                 <li className="breadcrumb-item p-2">
                   <Link to="/category">
                     {/* Category {category && <>({category})</>} */}
-                    {pageCount == 4 ? (
+                    {pageCount === 4 ? (
                       <b>Category {category && <>({category})</>}</b>
                     ) : (
                       <>Category {category && <>({category})</>}</>
@@ -75,7 +77,7 @@ function Header() {
                 <li className="breadcrumb-item p-2">
                   <Link to="/age">
                     {/* Age Group {userAge && <>({userAge})</>} */}
-                    {pageCount == 5 ? (
+                    {pageCount === 5 ? (
                       <b>Age Group {userAge && <>({userAge})</>}</b>
                     ) : (
                       <>Age Group {userAge && <>({userAge})</>}</>
@@ -86,7 +88,7 @@ function Header() {
               {pageCount >= 6 && (
                 <li className="breadcrumb-item active p-2" aria-current="page">
                   <Link to="/card">
-                    {pageCount == 6 ? <b>Cards</b> : <>Cards</>}
+                    {pageCount === 6 ? <b>Cards</b> : <>Cards</>}
                   </Link>
                 </li>
               )}
