@@ -27,7 +27,7 @@ function Language() {
   }, []);
 
   const handleBackClick = () => {
-    navigate(-1);
+    navigate("/userInfo");
   };
 
   const handleLanguageSelection = (value) => {

@@ -78,11 +78,15 @@ function Card() {
   };
 
   useEffect(() => {
-    setPageCount(5);
+    setPageCount(6);
   }, []);
 
   const handleBack = () => {
     navigate(-1);
+  };
+
+  const handleBackToCategory = () => {
+    navigate("/category");
   };
 
   const handleNeedHelp = () => {
@@ -290,7 +294,7 @@ function Card() {
                   <div className="d-flex flex-column flex-sm-row align-items-center">
                     <button
                       type="button"
-                      onClick={handleBack}
+                      onClick={handleBackToCategory}
                       className="m-2 btn btn-outline-primary p-1 cards-button"
                     >
                       Back to Category
