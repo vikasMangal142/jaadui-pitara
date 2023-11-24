@@ -17,6 +17,12 @@ function Card() {
   const speech = new SpeechSynthesisUtterance();
   const [readText, setReadText] = useState(null);
 
+  const imageUrlArray = [
+    "/images/1.png",
+    "/images/image1.jpg",
+    "/images/image1.png",
+  ];
+
   const config = JSON.parse(
     localStorage.getItem(localStorage.getItem("category"))
   );
@@ -238,13 +244,62 @@ function Card() {
               </div>
               <div className="row">
                 <div className="col-md-4">
-                  <div className="container-fluid p-3">
-                    <img
-                      src={img}
+                  <div
+                    id="carouselExampleInterval"
+                    className="carousel slide"
+                    data-bs-ride="carousel"
+                  >
+                    <div className="carousel-inner">
+                      <div
+                        className="carousel-item active"
+                        data-bs-interval="3000"
+                      >
+                        <img src={cardData.imageUrl[0]} className="d-block w-100" alt="first Image"></img>
+                      </div>
+                      { cardData.imageUrl && cardData.imageUrl.slice(1).map((item, index) => (
+                        <div
+                          key={index}
+                          className="carousel-item"
+                          data-bs-interval="3000"
+                        >
+                          <img
+                            src={item}
+                            className="d-block w-100"
+                            alt="hello"
+                          ></img>
+                        </div>
+                      ))}
+                    </div>
+                    <button
+                      className="carousel-control-prev"
+                      type="button"
+                      data-bs-target="#carouselExampleInterval"
+                      data-bs-slide="prev"
+                    >
+                      <span
+                        className="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                      className="carousel-control-next"
+                      type="button"
+                      data-bs-target="#carouselExampleInterval"
+                      data-bs-slide="next"
+                    >
+                      <span
+                        className="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span className="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  {/* <img
+                      src="/images/1.png"
                       className="card-img-top card-img-style"
                       alt="..."
-                    ></img>
-                  </div>
+                    ></img> */}
                 </div>
                 <div className="col-md-8 p-3 card-body-points flex-column">
                   <ul className="list-group list-group-flush">

@@ -34,15 +34,20 @@ function Language() {
     console.log("vikasfdsvs");
     console.log(IndianLanguages.find((lango) => lango.name === value).code);
     // <UsingRegex targetLanguage = {IndianLanguages.find((lango)=> lango.name  === value).code}></UsingRegex>
-    console.log(value);
-    setLanguage(value);
-    localStorage.setItem("language", value);
-    setLang(value);
-    navigate(
-      `/translate/usingRegex/${
-        IndianLanguages.find((lango) => lango.name === value).code
-      }`
-    );
+    if(localStorage.getItem("language") === value){
+      navigate("/category")
+    }
+    else{
+      console.log(value);
+      setLanguage(value);
+      localStorage.setItem("language", value);
+      setLang(value);
+      navigate(
+        `/translate/usingRegex/${
+          IndianLanguages.find((lango) => lango.name === value).code
+        }`
+      );
+    }
   };
 
   return (
