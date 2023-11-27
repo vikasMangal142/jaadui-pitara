@@ -1,0 +1,14 @@
+version: '3'
+services:
+  react-app:
+    container_name: my-react-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Assuming your React app runs on port 3000
+    volumes:
+      - .:/app # Mounting the current directory into the container at /app
+    environment:
+      - CHOKIDAR_USEPOLLING=true # For file watching in containers, if needed
+

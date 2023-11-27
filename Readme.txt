@@ -24,3 +24,6 @@ To Run image (Here 8000 is the port no., where you want your docker image to run
 and 3000 is the basic react port of your project)(jpqa is the name of the image 
 we are giving while running the image)
 ### sudo docker run -it --name jpqa -p  8000:3000 jpprojecto
+
+use this to run the docker image
+### docker compose up
